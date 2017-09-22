@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Gauthams Blog</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://gauthamzz.github.io/"/>
+  <updated>2017-06-30T11:54:27.106Z</updated>
+  <id>http://gauthamzz.github.io/</id>
+  
+  <author>
+    <name>Gautham Santhosh</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HackInTheNorth2.0</title>
+    <link href="http://gauthamzz.github.io/2017/03/28/HackInTheNorth2-0/"/>
+    <id>http://gauthamzz.github.io/2017/03/28/HackInTheNorth2-0/</id>
+    <published>2017-03-28T08:11:10.000Z</published>
+    <updated>2017-06-30T11:54:27.106Z</updated>
+    
+    <content type="html"><![CDATA[<!--excerpt -->
+<p>This years Hack In the North had around 300 participants to become india’s biggest student held Hackathon, With participants coming from all over india to make the event a grand sucess.</p>
+<h1 id="Team"><a href="#Team" class="headerlink" title="Team"></a>Team</h1><div class="figure " style="width:;"><img class="fig-img" src="https://farm3.staticflickr.com/2819/32862646223_532ce4c81c_b.jpg" alt=""></div>
+<p>We decided early on that this year , there wont be any main organiser or anything of such sorts. Everyone will be the same and all will have equal role. This was a vital part for the event.So with a linear management we started preparing for the even 8 months prior to the event.</p>
+<p>The team page of the event can be seen at <a href="https://www.hackinthenorth.com/team.html" target="_blank" rel="external">here</a></p>
+<h1 id="Marketing"><a href="#Marketing" class="headerlink" title="Marketing"></a>Marketing</h1><div class="video-container"><iframe src="//www.youtube.com/embed/https://www.youtube.com/watch?v=ZEt7be-ZIsc" frameborder="0" allowfullscreen></iframe></div>
+<p>As marketing is the most vital part of making every event a sucess. This year we decided to redefine everything by changing the logo and realsed two trailers for the event. Design for everything including the posters , website etc was be minimal.</p>
+<h1 id="Registartion"><a href="#Registartion" class="headerlink" title="Registartion"></a>Registartion</h1><p>We opened the registartion months prior to the event , so that students who are far off would get sufficent time to prepare for the event. Participants were shortlisted by their GitHub profile and Resume. Hack In the North is free for everyone although we donot provide travel rembiustments we do provide free accomodation, food and other facilities during the event.</p>
+<h1 id="The-Opening-Cermony"><a href="#The-Opening-Cermony" class="headerlink" title="The Opening Cermony"></a>The Opening Cermony</h1><div class="figure " style="width:;"><img class="fig-img" src="https://farm4.staticflickr.com/3854/33506805541_d4aa846341_b.jpg" alt=""></div>
+<p>The opening cermony was made special by talks given by Joe Nash of GitHub, Sidarth of Startup Village, Saynthan of Fedora. During this 3 hour cermony particpants were briefed about the everything. </p>
+<h1 id="The-Hacking"><a href="#The-Hacking" class="headerlink" title="The Hacking"></a>The Hacking</h1><p>Hacking started shortly after the opening cermony and particpants were split between two labs in Computer Center 3 of IIIT Allahabad Campus.Where at which the participants hacked contiously for the next 36 hours to decide who is the winner of the event. Each Team was assigned a table number and they were also provided with beddings inside the labs as well, for those who wanted to take rest. During the hacking online sessions of RestDB and other were held.</p>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="https://farm4.staticflickr.com/3696/33525839601_f91cce3bb3_b.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="https://farm4.staticflickr.com/3954/32812281254_160be9c74a_b.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="https://farm4.staticflickr.com/3956/33525831531_c948af55da_b.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="https://farm4.staticflickr.com/3753/33641576026_ca8562aa9c_b.jpg" alt=""></div>
+<p>Hacking for 36 hours</p>
+<h1 id="Food"><a href="#Food" class="headerlink" title="Food"></a>Food</h1><p>Particants were provided with Pizza, Veg Biriyani, Maggi and cold drinks each day for the two days.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://farm3.staticflickr.com/2819/33298117510_2235cf3576_b.jpg" alt=""></div>
+<h1 id="Goodies"><a href="#Goodies" class="headerlink" title="Goodies"></a>Goodies</h1><p>Paticpants were all given T shirts, Stickers by various sponsors , Coupons for services ( such as restdb, digital ocean, Radix etc) and various other goodies. Online session by RestDB was also held during the event.</p>
+<h1 id="Judging"><a href="#Judging" class="headerlink" title="Judging"></a>Judging</h1><p>Judging of the event was done using MIT’s gavel online judge. Our two judges were from Fedora and NASDAQ. The top 10 particpants where shortlisted from the 48 teams and they were called upon on the stage for final presentation. Based on the final presentation the winners of the event was decided. Prizes were given for Winners, Best hardware hack, Best radix hack and top 10 teams. </p>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="https://farm3.staticflickr.com/2867/33555135831_2596c25f38_b.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="https://farm3.staticflickr.com/2832/32841696084_d0479f8dfd_b.jpg" alt=""></div>
+<p>Winners of hint 2.0 during the final judging</p>
+<h1 id="Sponsors"><a href="#Sponsors" class="headerlink" title="Sponsors"></a>Sponsors</h1><p>It was my third time organising a hackthon, first two although being sucessful was incomplete. It lacked an integral part, Sponsors. We had Github, Hackster.io, Gitlab, Radix, Wolframalpha, Tensorflow, Restdb and many more to fill that gapping hole this year. </p>
+<div class="figure center" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/6287cf0922.png" alt=""></div>
+<p>Steve Jobs said you can only connect the dots backwards, that everything you did till a point in life will allign at one moment. That moment what this years Hack In The North was for us. </p>
+<p>View more images over <a href="https://www.flickr.com/photos/ams_iiita/albums/72157680122020860" target="_blank" rel="external">Ams IIIT A flickr album</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is how we organised india’s biggest student held hackathon.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Events and activities" scheme="http://gauthamzz.github.io/categories/Events-and-activities/"/>
+    
+    
+      <category term="Hackathon" scheme="http://gauthamzz.github.io/tags/Hackathon/"/>
+    
+      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
+    
+      <category term="Hack In the North" scheme="http://gauthamzz.github.io/tags/Hack-In-the-North/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Opencode</title>
+    <link href="http://gauthamzz.github.io/2017/02/23/opencode/"/>
+    <id>http://gauthamzz.github.io/2017/02/23/opencode/</id>
+    <published>2017-02-23T16:42:15.000Z</published>
+    <updated>2017-03-11T08:18:12.359Z</updated>
+    
+    <content type="html"><![CDATA[<!--excerpt--></p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://raw.githubusercontent.com/fossiiita/opencode/master/Logo.png" alt=""></div>
+<p>As the new year dawned, we decided to do something different. The issue we faced was that only few people were interested in Open Source, and we had to lure them into our little cult. Hence, inspired from GSOC and GCI, we decided to organise an event named Opencode. The idea was slightly absurd - a month long event where we help participants develop Open Source software on <a href="https://github.com/fossiiita" target="_blank" rel="external">GitHub</a>. <a href="https://fossiiita.github.io/opencodecollab/index.html#mentors" target="_blank" rel="external">My team</a>, consisting of Shubham Padia, Diwakar Vinay, Faheem Hassan Zunjani, Abhinav Khare, Pranjal Paliwal, Mubaris Hassan, Himanshu Shekhar and I, started working on 6 different projects as mentors.</p>
+<h1 id="The-beginning"><a href="#The-beginning" class="headerlink" title="The beginning"></a>The beginning</h1><p>The event timeline.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://raw.githubusercontent.com/fossiiita/opencode/master/timeline.png" alt=""></div>
+<p>Since the event was a farely new idea we wanted to increase the hype so on new years we posted , comming soon posters.</p>
+<p>Followed by that we published the trailer and accouned the event date.<br><div class="video-container"><iframe src="//www.youtube.com/embed/qkt9vMKYHAM" frameborder="0" allowfullscreen></iframe></div></p>
+<p>we even made a simple markdown based <a href="https://fossiiita.github.io/opencode/" target="_blank" rel="external">website</a> for the event.</p>
+<h1 id="Selected-Projects"><a href="#Selected-Projects" class="headerlink" title="Selected Projects"></a>Selected Projects</h1><h2 id="Opencodecollab"><a href="#Opencodecollab" class="headerlink" title="Opencodecollab"></a><a href="https://fossiiita.github.io/opencodecollab/" target="_blank" rel="external">Opencodecollab</a></h2><p><a href="https://github.com/fossiiita/opencodecollab" target="_blank" rel="external">View on github</a> <a href="https://fossiiita.github.io/opencodecollab/" target="_blank" rel="external">View Website</a> </p>
+<p>Opencode Collabrative website</p>
+<p>This is was our main project, to participate in the event a user had to send a pull request adding his name in this website (Made using jeykll). Thanks to github for making the amazing jeykll project.</p>
+<p>At the beginning the the website only had students and participants sections. </p>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f18db77ec2.png" alt="website after one week"><span class="caption">website after one week</span></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f18d901914.png" alt="At the end of the event"><span class="caption">At the end of the event</span></div>
+<p>New features :</p>
+<ul>
+<li>Card flip to show details.</li>
+<li>Increased number of projects from two to six.</li>
+<li>Added projects section which uses github api to fetch number of stars and forks each repo has.</li>
+<li>Added participant projects consisting of javascript games made by them.</li>
+<li>Added participant blogs describing each persons experince during the event.</li>
+<li>Issues section which fetched all projects with label opencode and displayed them in the website.</li>
+<li>Loader for the website, Better background images, Watch trailer and facebook likes , share and changed facebook graph images.</li>
+<li>Chat box inside the website (gitter) , Countdown for the event and event scoreboard to view each persons commits.</li>
+</ul>
+<p>The event had a total of 66 participants out of which 63 where from IIIT- Allahabad.</p>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f1b9ad0ab9.png" alt="Repo at the end"><span class="caption">Repo at the end</span></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f18d806f25.png" alt="Pulse from jan 20"><span class="caption">Pulse from jan 20</span></div>
+<h2 id="Humbefoolcup"><a href="#Humbefoolcup" class="headerlink" title="Humbefoolcup"></a><a href="https://fossiiita.github.io/humblefoolcup/" target="_blank" rel="external">Humbefoolcup</a></h2><p>Humbefoolcup was an event page which we made using materilizecss.<br>It started of with a simple materilizecss template. In the end we made :</p>
+<ul>
+<li>A compelete event page </li>
+<li>A <a href="https://fossiiita.github.io/humblefoolcup/humblefool/humblefool.html" target="_blank" rel="external">tribute page</a>, stats page and team page.</li>
+</ul>
+<p>All the contributions was from the participants i only managed the page with the help of Diwakar. </p>
+<h2 id="Other-projects"><a href="#Other-projects" class="headerlink" title="Other projects"></a>Other projects</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f18d57df74.png" alt=""></div>
+<p>Other projects can be viewed at the projects section at opencodecollab website .</p>
+<p>To increase the Participants we also conducted workshops on Git | Github and Android game Dev during the event.</p>
+<h1 id="Conslusion"><a href="#Conslusion" class="headerlink" title="Conslusion"></a>Conslusion</h1><p>In the beginning, the event attracted only few participants. But the number increased gradually, and as the event came to an end, we reached 66 participants with most of them from IIIT Allahabad. Together we created amazing things.</p>
+<p>As compared to normal GCI which has around 100-150 participants we need a lot more participants to call it a huge succes , but for the first time this was considered to be fair. As our number of mentors, publicity and prize money was limited.</p>
+<p>Things to improve :</p>
+<ul>
+<li>Participants had limited knowledge projects that required different skills were not much touched , which was a big draw back. Such as Android App, Django based projects etc. </li>
+<li>Bigger prize money and sponsors. </li>
+<li>Larger reach , we need to extend the event to other colleges as well. Our target next time is to reach out to colleges which are far off so that they will also get to know more about opensource.</li>
+<li>More mentors.</li>
+</ul>
+<p>But overall it was one of the best one months i had in my B-Tech mentoring other students.Its all becasue of the Opencode team ,small but amazing for making it a success.</p>
+<p>Thank you for reading :) </p>
+<h1 id="Gallery"><a href="#Gallery" class="headerlink" title="Gallery"></a>Gallery</h1><div class="figure " style="width:;"><img class="fig-img" src="https://raw.githubusercontent.com/fossiiita/opencode/master/Coming%20Soon%20Poster_2.jpg" alt=""></div>
+<div class="figure fig -50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f1db31cc63.png" alt="markdown website"><span class="caption">markdown website</span></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f1e13a6152.jpg" alt="event poster"><span class="caption">event poster</span></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f21a273225.png" alt="humblefoolcup website"><span class="caption">humblefoolcup website</span></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f18d76f447.png" alt="opencodecollab"><span class="caption">opencodecollab</span></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A month long Open-Source event. I was a Mentor/ Coordinator , with 6 different Projects.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Events and activities" scheme="http://gauthamzz.github.io/categories/Events-and-activities/"/>
+    
+    
+      <category term="IIIT-A" scheme="http://gauthamzz.github.io/tags/IIIT-A/"/>
+    
+      <category term="Geekhaven" scheme="http://gauthamzz.github.io/tags/Geekhaven/"/>
+    
+      <category term="opencode" scheme="http://gauthamzz.github.io/tags/opencode/"/>
+    
+      <category term="Open source" scheme="http://gauthamzz.github.io/tags/Open-source/"/>
+    
+      <category term="Event" scheme="http://gauthamzz.github.io/tags/Event/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IndianLawyerBot</title>
+    <link href="http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/"/>
+    <id>http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/</id>
+    <published>2016-11-23T02:25:38.000Z</published>
+    <updated>2017-01-15T20:11:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>A chatbot i have made which acts as a Legal Expert in India.</p>
+<a id="more"></a>
+<p>All gifs are of facebook messenger.</p>
+<h2 id="What-happens-when-you-say-hi"><a href="#What-happens-when-you-say-hi" class="headerlink" title="What happens when you say hi"></a>What happens when you say hi</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febc43296.gif" alt=""></div>
+<ul>
+<li>The bot presently recognizes sections related to verbal and physical abuses.</li>
+<li>Lets see how it reacts.</li>
+<li>I have added quick replies as well as text response for ease of use.</li>
+</ul>
+<h2 id="When-you-click-physical-gestures"><a href="#When-you-click-physical-gestures" class="headerlink" title="When you click physical gestures"></a>When you click physical gestures</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febd74dfb.gif" alt=""></div>
+<p>All the cases of which bot travels is not seen in this blog as i try to show only one of a type. Sections change according to the decision made on</p>
+<ul>
+<li>what is the cause  </li>
+<li>weapon</li>
+<li>how deep is the hurt</li>
+<li>other factors in special cases</li>
+</ul>
+<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febde3365.gif" alt=""></div>
+<h2 id="When-you-want-to-know-about-crimes-related-to-verbal-gestures"><a href="#When-you-want-to-know-about-crimes-related-to-verbal-gestures" class="headerlink" title="When you want to know about crimes related to verbal gestures"></a>When you want to know about crimes related to verbal gestures</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febea4cf0.gif" alt=""></div>
+<h2 id="When-you-want-to-know-what-happens-next"><a href="#When-you-want-to-know-what-happens-next" class="headerlink" title="When you want to know what happens next"></a>When you want to know what happens next</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febf26a81.gif" alt=""></div>
+<p>Now time for some fun with the bot</p>
+<h2 id="Adding-small-talk"><a href="#Adding-small-talk" class="headerlink" title="Adding small talk"></a>Adding small talk</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febf960b7.gif" alt=""></div>
+<h2 id="Wanna-Try-it-out"><a href="#Wanna-Try-it-out" class="headerlink" title="Wanna Try it out"></a>Wanna Try it out</h2><h2 id="Telegram"><a href="#Telegram" class="headerlink" title="Telegram"></a>Telegram</h2><p>But you can talk to the bot in Telegram under @IndianLawyerBot</p>
+<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/502b303b56.png" alt=""></div>
+<h2 id="Facebook-messenger"><a href="#Facebook-messenger" class="headerlink" title="Facebook messenger"></a>Facebook messenger</h2><p>The bot messenger in not avaliable for public in facebook yet as we need to make the privacy policy. But if you contact me i can let you in a sneek peek. When avalible you can access it through the <a href="https://www.facebook.com/indainlawyerbot/" target="_blank" rel="external">facebook page</a>.</p>
+<h2 id="Slack-bot"><a href="#Slack-bot" class="headerlink" title="Slack bot"></a>Slack bot</h2><p>Need some more procedures to be done before it becomes public.</p>
+<p>Credits :<br>Amrit Daimary and Ankit Pettkar for helping me with this project.<br>Adv. K M Santhoshkumar for being out feild expert while making this bot.</p>
+<h1 id="Thank-you-for-reading-and-have-a-nice-day"><a href="#Thank-you-for-reading-and-have-a-nice-day" class="headerlink" title="Thank you for reading and have a nice day :)"></a>Thank you for reading and have a nice day :)</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A chatbot i have made which acts as a Legal Expert in India.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Projects" scheme="http://gauthamzz.github.io/categories/Projects/"/>
+    
+    
+      <category term="Chatbot" scheme="http://gauthamzz.github.io/tags/Chatbot/"/>
+    
+      <category term="Expert System" scheme="http://gauthamzz.github.io/tags/Expert-System/"/>
+    
+      <category term="IndianLawyerBot" scheme="http://gauthamzz.github.io/tags/IndianLawyerBot/"/>
+    
+      <category term="messenger bot" scheme="http://gauthamzz.github.io/tags/messenger-bot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Trip2Rishikesh</title>
+    <link href="http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/Trip2Rishikesh/"/>
+    <id>http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/Trip2Rishikesh/</id>
+    <published>2016-11-03T21:11:48.000Z</published>
+    <updated>2017-09-04T08:52:48.544Z</updated>
+    
+    <content type="html"><![CDATA[<p>I went to Rishikesh from October 30 to November 3, 2016.</p>
+<p>Rishikesh known as “the valley of saints” is an amazing place for both adventurers as well as people in search of Spiritual calling.This Blog post is about the former.</p>
+<a id="more"></a>
+<p>All the pics in this blog are taken by low clarity phones camera,So please bare through.</p>
+<h1 id="Table-of-Contents"><a href="#Table-of-Contents" class="headerlink" title="Table of Contents"></a>Table of Contents</h1><hr>
+<ul>
+<li><a href="#How to Reach?">How to reach ?</a></li>
+<li><a href="#Camping">Riverside Night Camping</a></li>
+<li><a href="#Rafting">River Rafting</a></li>
+<li><a href="#Bungee">Bungee Jumping</a></li>
+<li><a href="#BeatlesAshram">Beatles Ashram</a></li>
+<li><a href="#Others">Others</a></li>
+</ul>
+<h2 id="The-Trip"><a href="#The-Trip" class="headerlink" title="The Trip"></a>The Trip</h2><h2 id="How-to-Reach"><a href="#How-to-Reach" class="headerlink" title="How to Reach?"></a>How to Reach?</h2><p>To reach Rishikesh you have to first reach Haridwar or Dehradun. We reached Haridwar by train after realizing there is nothing much to do there we took a bus to Rishikesh. Which took almost 1.25 hours and is available 24 * 7 . You can also get Taxi’s or Auto’s.</p>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb0cd09fa2.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb0cd81116.jpg" alt=""></div>
+<h2 id="Camping"><a href="#Camping" class="headerlink" title="Camping"></a>Camping</h2><p>After reaching we took a river side camp in Shivpuri near Rishikesh for the nights stay. The package included food,camping and free rafting on the next day.Food was great and nothing can ever match the ambiance of the atmosphere though. The Bon fire with with the cold winds from the Himalayas are something worth experiencing.<br><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb789f1eaf.jpg" alt=""></div></p>
+<div class="figure fig-33" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb78946c72.jpg" alt=""></div>
+<div class="figure fig-33" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb78b9eb18.jpg" alt=""></div>
+<div class="figure fig-33" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb78c36119.jpg" alt=""></div>
+<p>We had to wake up early in the morning to go for river rafting.</p>
+<h2 id="Rafting"><a href="#Rafting" class="headerlink" title="Rafting"></a>Rafting</h2><p>River <a href="https://en.wikipedia.org/wiki/Rafting" target="_blank" rel="external">Rafting</a> is one of the cheapest and most amazing things to do in Rishikesh.<br>We did a 18 km rafting which included few grade 3 and grade 4 Rapids. Being at the front of the raft i had an interesting journey.<br>During rafting they allow us to jump into River Ganges and do body floating(with their life jackets on). Which is basically the only time non swimmers can actually experience the beauty of the sport without putting in any effort(P.S i can swim). We stopped half way during the ride for a Tea break where people could do Cliff jumping , which is basically people jumping from a rock into the water. After which we rowed to the end point and finished our ride.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbb55cae8b.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbb55eae9e.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbb565f71c.jpg" alt=""></div>
+<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbb773d31a.jpg" alt=""></div>
+<h2 id="Bungee"><a href="#Bungee" class="headerlink" title="Bungee"></a>Bungee</h2><p>The main purpose of this trip was to do Bungee Jumping at <a href="http://www.jumpinheights.com/" target="_blank" rel="external">Jumpin heights</a> which is an 83 meters long India’s highest jump with jump masters from New Zealand .<br>It costs around Rs 3600 for a jump which is same everywhere , so you dont have to roam around finding people to bargain with. It is of top quality and is worth every single penny of it. The Jumping place is around 20 km away from Rishikesh which rented a bike for the travel.</p>
+<p>After the jump we have to do a small trek up the mountain we just jumped . The place also has Flying Fox and Giant Swing.</p>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbee574d1e.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbee7bdbaa.jpg" alt=""></div>
+<h2 id="BeatlesAshram"><a href="#BeatlesAshram" class="headerlink" title="BeatlesAshram"></a>BeatlesAshram</h2><p>Beatles Ashram is the place where the infamous Beatles stayed when they came to India. This is place is full of Graffiti and paintings which will make the artist within you fall in love.<br>These are some of the pics i took over there.</p>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2bf53068c.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2bfc4e9b6.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2bf21115a.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2be56f3dc.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2be38216b.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2c9c6ccf2.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2ca30ccf5.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2ca9d961f.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2d90c8e13.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2d927fab4.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2d939a7e2.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2d96cb424.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2e69799af.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2e6a48df3.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2e6d0200d.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2e6b64401.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2eee338d2.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2f01d1328.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2efa1eb13.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2eda54d82.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2f00e5bc9.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2f028cc97.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2ec1ea3cd.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2ec5c781b.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c309974705.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2ee56b4cc.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c3096028b1.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c309729a11.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c30986af67.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c310fecc1d.jpg" alt=""></div>
+<p>Well that was a lot wasn’t it. There are more but i got tired of clicking pics. There are small caves and very old ashrams there also.</p>
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><p>These are some pictures i took while on traveling on the bike we rented out in the place.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c32fea79bf.jpg" alt="Ganges is so beautiful out here"><span class="caption">Ganges is so beautiful out here</span></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c32f319d69.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c334b1db0a.jpg" alt=""></div>
+<p>There are many more interesting places like Ram Jhula, Lakshman Jhula , Triveni Ghat and many temples in Rishikesh too.But this post wont cover them.</p>
+<p>Thank you for reading and i hope one day you will also visit there and try out everything.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I went to Rishikesh from October 30 to November 3, 2016.&lt;/p&gt;
+&lt;p&gt;Rishikesh known as “the valley of saints” is an amazing place for both adventurers as well as people in search of Spiritual calling.This Blog post is about the former.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Travel" scheme="http://gauthamzz.github.io/categories/Travel/"/>
+    
+    
+      <category term="Travel" scheme="http://gauthamzz.github.io/tags/Travel/"/>
+    
+      <category term="Adventure" scheme="http://gauthamzz.github.io/tags/Adventure/"/>
+    
+      <category term="Bungee Jumping" scheme="http://gauthamzz.github.io/tags/Bungee-Jumping/"/>
+    
+      <category term="Rafting" scheme="http://gauthamzz.github.io/tags/Rafting/"/>
+    
+      <category term="Bike Rentals" scheme="http://gauthamzz.github.io/tags/Bike-Rentals/"/>
+    
+      <category term="Beatles Ashram" scheme="http://gauthamzz.github.io/tags/Beatles-Ashram/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Stegolica</title>
+    <link href="http://gauthamzz.github.io/2016/10/18/stegolica/"/>
+    <id>http://gauthamzz.github.io/2016/10/18/stegolica/</id>
+    <published>2016-10-18T08:27:54.000Z</published>
+    <updated>2017-09-21T23:29:57.867Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://stegolica/effe.org.in/website/" target="_blank" rel="external">Stegolica</a> was held as part of <a href="http://effe.org.in" target="_blank" rel="external">Effervesence</a> 2016 of IIIT Allahabad.</p>
+<p>Steganography is the practice of concealing messages or information within other non-secret text or data.</p>
+<p>This blog post contains all the questions and their solutions for the event.</p>
+<a id="more"></a>
+<h2 id="Question"><a href="#Question" class="headerlink" title="Question"></a>Question</h2><p>This book served as the primary basis for which film? (Haha blank image right, but look closer)</p>
+<p><img src="1.jpg" alt="alt text"></p>
+<p>Answer:</p>
+<div class="alert success"><p>bladerunner</p>
+</div>
+<p>Solution:</p>
+<p>Tilt the screen in a certain viewing angle then you can see the text “ Do android dream of electric sheep”</p>
+<p>Alternatively</p>
+<p>Open in Photoeditor and apply any filter to the image. And you will get</p>
+<p><img src="q.png" alt="alt text"></p>
+<h2 id="Question-1"><a href="#Question-1" class="headerlink" title="Question"></a>Question</h2><p>Whose line is this ?</p>
+<p><img src="2.jpg" alt="alt text"></p>
+<p>Answer:<br><div class="alert success"><p>jerrymaguire</p>
+</div></p>
+<p>Solution: The line is “show me the money” from the movie jerry maguire.</p>
+<p>If you zoom into the image closely you will see that the image is made of the text show me the money.</p>
+<h2 id="Question-2"><a href="#Question-2" class="headerlink" title="Question"></a>Question</h2><p>Guess the hidden word i say when i get an idea for a question?</p>
+<p>(PDF FILE)[<a href="https://drive.google.com/file/d/0By4wRKJ5_4qJNkpnOWxxS1U5ZmM/view" target="_blank" rel="external">https://drive.google.com/file/d/0By4wRKJ5_4qJNkpnOWxxS1U5ZmM/view</a>]</p>
+<p>Answer:<br><div class="alert success"><p>bazinga</p>
+</div></p>
+<p>Solution:</p>
+<p>The text is in white colour in the pdf file. so open in any pdf editor and you can change the colour of the font or you can open in any pdf viwer and highlight all text and you see something like this.</p>
+<p>BAZINGA</p>
+<h2 id="Question-3"><a href="#Question-3" class="headerlink" title="Question"></a>Question</h2><p>Who is the man behind these companies? <a href="https://www.youtube.com/watch?v=Yq7i2aaGkW8" target="_blank" rel="external">Video Question</a></p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/Yq7i2aaGkW8" frameborder="0" allowfullscreen></iframe></div>
+<p>Answer:<br><div class="alert success"><p>elonmusk</p>
+</div></p>
+<p>Solution:</p>
+<p>If you play the video very slow then you will see these texts comming up and flashing away very quick, yeah like in fight club. You saw it but you didnt.</p>
+<p>Solar City at 9:00.<br>Paypal at 22:17.<br>Zip2 at 40:17.<br>Paypal at 58:23.<br>Tesla at 1:08:10</p>
+<h2 id="Question-4"><a href="#Question-4" class="headerlink" title="Question"></a>Question</h2><p>Which song am i talking about?<br><a href="https://drive.google.com/file/d/0By4wRKJ5_4qJRWhZTkV0VnVPN1U/view?usp=sharing" target="_blank" rel="external">PSD File</a></p>
+<p>which looks something like this (Institute Library)</p>
+<p>Answer:<br><div class="alert success"><p>blankspace</p>
+</div></p>
+<p>Solution:</p>
+<p>Open in Photoeditor.<br>Untick layers 2,3,4,5<br>Increase the opacity of the group from 0 to 100 ( Optional only needed in some photoeditors if you dont see the text yet)</p>
+<p>you will see the text “OMG look at that face you look like my next mistake”. A line from the Taylor Swift song blank space.</p>
+<h2 id="Question-5"><a href="#Question-5" class="headerlink" title="Question"></a>Question</h2><p>What is the blind mans last name ?</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJcjBKZDQzRDRqRUE" target="_blank" rel="external">Audio File</a></p>
+<p>Answer:<br><div class="alert success"><p>slade</p>
+</div></p>
+<p>Solution:<br>If you reverse the audio you will see that the audio track is from the movie “scent of a woman”.<br>Conversation/Speech between Mr Slade (Al Pacino as the Blind Man) and Mr Trask.</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJWTVEUHRMOHpXelU" target="_blank" rel="external">Audio File</a> when reversed.</p>
+<p><a href="https://www.youtube.com/watch?v=ypx1Stz8zN0" target="_blank" rel="external">Full Speech</a></p>
+<h2 id="Question-6"><a href="#Question-6" class="headerlink" title="Question"></a>Question</h2><p>Where is the key ?</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJNjNQX25TMU5ZT2s" target="_blank" rel="external">Image file</a></p>
+<p>The image looks like this ( Do not download this image to solve)</p>
+<p><img src="5.jpg" alt="alt image"></p>
+<p>Answer:<br><div class="alert success"><p>withinyourself</p>
+</div></p>
+<p>Solution:<br>if you open the image in any text editor you will see.</p>
+<h2 id="Question-7"><a href="#Question-7" class="headerlink" title="Question"></a>Question</h2><p>My fav personal assistant</p>
+<p><img src="6.jpg" alt="alt image"></p>
+<p>Answer:<br><div class="alert success"><p>jarvis</p>
+</div></p>
+<p>Solution:</p>
+<p>In image description you will find</p>
+<p>Artist : multimillionaire,philantropist ,genius ,playboy which means Iron Man(Tony Stark)<br>Descritpion : Just A Rather Very Intelligent System (JARVIS)</p>
+<h2 id="Question-8"><a href="#Question-8" class="headerlink" title="Question"></a>Question</h2><p>A Terrorist tweeted the next target location where ?<br><img src="b.png" alt="alt text"></p>
+<p>Answer:<br><div class="alert success"><p>tajmahal</p>
+</div></p>
+<p>Solution:</p>
+<p>If you discrad all the text and only take numbers into consideration.</p>
+<p>27 174 78 and 04 can be found.</p>
+<p>We represent a location by numbers using latitude and longitude .</p>
+<p>so 27.174 and 78.04 means taj mahal</p>
+<h2 id="Question-9"><a href="#Question-9" class="headerlink" title="Question"></a>Question</h2><p>Which character says this ?(take e=2.718)</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJdHZWRnMzTk1zVDQ" target="_blank" rel="external">Image link</a></p>
+<p><img src="7.png" alt="alt text"></p>
+<p>Answer :<br><div class="alert success"><p>buzzlightyear</p>
+</div></p>
+<p>Solution:</p>
+<p>Change the extension of the image file from png to zip.<br>After extraction you will get.</p>
+<p>Taking e ad 2.718 ,i.e taking 2nd 7th 1st and 8th image we get two, infinity , and , beyond respectively.</p>
+<p>To infinity and beyond is by the toy story character buzzlightyear.</p>
+<h2 id="Question-12"><a href="#Question-12" class="headerlink" title="Question 12"></a>Question 12</h2><p>Who is it?</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJLUNsdVdjMG1zTjQ" target="_blank" rel="external">Image Link</a></p>
+<p>Image looks like, please use the above link to download .</p>
+<p>Answer :<br><div class="alert success"><p>samuelljackson</p>
+</div></p>
+<p>Solution:</p>
+<p>If you change the file extension to zip then unzip it you will get an image.<br>When you change its extension and unzip it , you will get another.<br>If you do this again and again you will get these images.<br>And in the final image when opened as a text file, it is given the solution is the actor who acted in all of these movies.</p>
+<h2 id="Question-13"><a href="#Question-13" class="headerlink" title="Question 13"></a>Question 13</h2><p>From which movie is this dialogue</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJMllDZWRXTllGcWM" target="_blank" rel="external">Audio link</a></p>
+<p>Answer:<br><div class="alert success"><p>titanic</p>
+</div></p>
+<p>Solution:</p>
+<p>The soundtrack is 528491 from the movie inception.</p>
+<p>If you change the extension of the audio to zip from mp3 you will get this text file containing.</p>
+<p>When you take the 5th 2nd 8th 4th 9th and 1st word of quotes in order you will get.<br>“i’m the king of the world” from the movie titanic</p>
+<h1 id="Thank-you-for-reading"><a href="#Thank-you-for-reading" class="headerlink" title="Thank you for reading"></a>Thank you for reading</h1><p>The source code to the website can be found at <a href="https://github.com/gauthamzz/stegolica" target="_blank" rel="external">Stegolica Repo</a> in my github account.</p>
+<p>The webapp was developed using Django and hosted in openshift.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://stegolica/effe.org.in/website/&quot;&gt;Stegolica&lt;/a&gt; was held as part of &lt;a href=&quot;http://effe.org.in&quot;&gt;Effervesence&lt;/a&gt; 2016 of IIIT Allahabad.&lt;/p&gt;
+&lt;p&gt;Steganography is the practice of concealing messages or information within other non-secret text or data.&lt;/p&gt;
+&lt;p&gt;This blog post contains all the questions and their solutions for the event.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Events and activities" scheme="http://gauthamzz.github.io/categories/Events-and-activities/"/>
+    
+    
+      <category term="IIIT-A" scheme="http://gauthamzz.github.io/tags/IIIT-A/"/>
+    
+      <category term="Effervesence 2016" scheme="http://gauthamzz.github.io/tags/Effervesence-2016/"/>
+    
+      <category term="Online Event" scheme="http://gauthamzz.github.io/tags/Online-Event/"/>
+    
+      <category term="Steganography" scheme="http://gauthamzz.github.io/tags/Steganography/"/>
+    
+      <category term="Hidden messages" scheme="http://gauthamzz.github.io/tags/Hidden-messages/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IIITAHacks</title>
+    <link href="http://gauthamzz.github.io/2016/09/12/IIITAHacks/"/>
+    <id>http://gauthamzz.github.io/2016/09/12/IIITAHacks/</id>
+    <published>2016-09-11T19:41:46.000Z</published>
+    <updated>2017-09-21T23:14:30.259Z</updated>
+    
+    <content type="html"><![CDATA[<!--excerpt --></p>
+<p><a href="https://iiitahacks.github.io/" target="_blank" rel="external">IIITA Hacks</a> was organized as part of Technical Society from 10th to 11th September 2016. It was a 17 hour hackathon with a participation of 150 students from the Institute.</p>
+<p>IIITA Hacks was an exclusive for the students of Indian Institute of Information Technology,Allahabad ,serving for the purpose for increasing the hackathon culture in the Institute. It also served as our odd semester hackthon complementing out even semester major hackthon <a href="hackinthenorth.com">Hack In the North</a>, which i am also a part of. Hack In the North is presently india’s biggest student held hackthon.</p>
+<h2 id="Trailer"><a href="#Trailer" class="headerlink" title="Trailer"></a>Trailer</h2><div class="video-container"><iframe src="//www.youtube.com/embed/k9R_W5XkohI" frameborder="0" allowfullscreen></iframe></div>
+<h2 id="Posters"><a href="#Posters" class="headerlink" title="Posters"></a>Posters</h2><div class="figure " style="width:;"><img class="fig-img" src="4.jpg" alt=""></div>
+<h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><div class="figure " style="width:;"><img class="fig-img" src="3.png" alt=""></div>
+<h2 id="The-event"><a href="#The-event" class="headerlink" title="The event"></a>The event</h2><p>The event was organized on two labs of Computer Center 3 of IIIT-A.<br>Participants had to code for 17 hours followed by a presentation at Admin Audi of the Institute.</p>
+<h2 id="Inauguration"><a href="#Inauguration" class="headerlink" title="Inauguration"></a>Inauguration</h2><p>The event <a href="https://github.com/iiitahacks/iiitahacks.github.io" target="_blank" rel="external">Rules and Regulations</a> followed by team registration was done in front of CC3 at 9:00 pm on 10 th of September.<br>Teams had to register online on a google form previously. The teams were alloted one to two first years as extra help for their task in hand.</p>
+<h2 id="Coding"><a href="#Coding" class="headerlink" title="Coding"></a>Coding</h2><p>The Participants went to there alloted labs and started coding very soon.<br>Our organizers helped teams in fixing their minor bugs as they can. Teams were given free goodies on the spot by the Organisers to encourage them on thier effort.<br>Refreshments such as coffe,colddrinks and snacks were provided for the Participants during the event.</p>
+<h2 id="Presentation"><a href="#Presentation" class="headerlink" title="Presentation"></a>Presentation</h2><p>After vigorous coding efforts the Participants then proceeded to Admin Audi.<br>All the teams were judged by Dr. Rahul Kala and winners were decided soon after it was over.<br><a href="https://iiitahacks.github.io/projects/index.html" target="_blank" rel="external">Top projects</a> can be viewed here.</p>
+<h1 id="Winners-KrayZ"><a href="#Winners-KrayZ" class="headerlink" title="Winners: KrayZ"></a>Winners: KrayZ</h1><ul>
+<li>Indresh Attri - IIT20150121</li>
+<li>Rajatbir Singh Bajwa - RIT2015012</li>
+<li>Piyush Gurnule - IEC2016026</li>
+<li>Nakul Srivastava - IIT2016056</li>
+<li>Madhur Gupta IIT2016083</li>
+</ul>
+<p>I had a lot of fun organizing one of the Institute’s largest hackthon’s till date. It had around 300 applications ,150 Participants and more than 20 final projects. I hope it will be better the next version.</p>
+<p>Thank you for reading.</p>
+<p>View more images at <a href="https://www.facebook.com/pg/AMS.IIITA/photos/?tab=album&amp;album_id=302250916809434" target="_blank" rel="external">AMS album</a></p>
+<div class="figure center" style="width:;"><img class="fig-img" src="1.jpg" alt=""></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;IIITA Hacks was a Student held hackathon organized by me from 10th September 2016.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Events and activities" scheme="http://gauthamzz.github.io/categories/Events-and-activities/"/>
+    
+    
+      <category term="Hackathon" scheme="http://gauthamzz.github.io/tags/Hackathon/"/>
+    
+      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
+    
+      <category term="IIITA Hacks" scheme="http://gauthamzz.github.io/tags/IIITA-Hacks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GeekhavenMentorship</title>
+    <link href="http://gauthamzz.github.io/2016/09/06/GeekhavenMentorship/"/>
+    <id>http://gauthamzz.github.io/2016/09/06/GeekhavenMentorship/</id>
+    <published>2016-09-05T20:19:18.000Z</published>
+    <updated>2017-02-28T11:24:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<!-- excerpt -->
+<h2 id="Task-3-0"><a href="#Task-3-0" class="headerlink" title="Task 3.0"></a>Task 3.0</h2><ol>
+<li>All of you had been added to the github <a href="https://github.com/gauthamzz/Awesome-Frontend-Designs" target="_blank" rel="external">repository</a></li>
+<li>Find out awesome designs from all over internet like <a href="https://github.com/VincentGarreau/particles.js/" target="_blank" rel="external">particle.js</a> etc .You can use websites like <a href="http://codepen.io/" target="_blank" rel="external">CODEPEN</a> for them.</li>
+<li>Categorically arrange them like other <a href="https://github.com/sindresorhus/awesome" target="_blank" rel="external">awesome lists</a> by editing the Readme.md as icons,background etc ..</li>
+<li>special points for using git rather than github. :) The above one is just a fun project for you guys :)  So only add awesome ones and have fun exploring.</li>
+<li>Write a code in c/c++/python to Read from a file and display as output.</li>
+<li>Write a code in c/c++/python to write to a file a given text.</li>
+<li>Try to learn how to compile in c99, change the output file from ./a.out to any name</li>
+</ol>
+<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/30ce1eb8aa.jpg" alt="Happy Diwali Guys have fun :)"><span class="caption">Happy Diwali Guys have fun :)</span></div>
+<p>Deadline : Nov 7 Updated: Oct 28</p>
+<h2 id="Task-2-0"><a href="#Task-2-0" class="headerlink" title="Task 2.0"></a>Task 2.0</h2><ol>
+<li>Create a repository in your github account ,name it “mentorshipcodes”</li>
+<li>Write a c code to check if the number is prime or not</li>
+<li>Write a c/python code to make a calculator</li>
+<li>write a c/python code to make a word game using python, which could be a quiz game , chatting game etc ..</li>
+<li>Upload this file into the repository.</li>
+</ol>
+<h2 id="Deadline-is-11th-Oct-2016"><a href="#Deadline-is-11th-Oct-2016" class="headerlink" title="Deadline is 11th Oct 2016"></a>Deadline is 11th Oct 2016</h2><h2 id="Task-1-0"><a href="#Task-1-0" class="headerlink" title="Task 1.0"></a>Task 1.0</h2><p>We will start with two things:</p>
+<ol>
+<li>All of you should make a github profile and send me the link.</li>
+<li>All of you should make a personal website and push to a repository names “your username”. After this you will be able to visit that website in yourusername.github.io .</li>
+</ol>
+<h2 id="General-personal-website-making-instructions"><a href="#General-personal-website-making-instructions" class="headerlink" title="General personal website making instructions."></a>General personal website making instructions.</h2><ol>
+<li>You can use a bootstarp template and edit them to your needs. Some of them are <a href="https://startbootstrap.com/" target="_blank" rel="external">startbootstrap</a> , <a href="http://getbootstrap.com/" target="_blank" rel="external">get bootstrap</a> or just google it. Anything is fine with me.</li>
+<li>Basic html and css could be looked up <a href="http://www.w3schools.com/" target="_blank" rel="external">W3schools</a> website.</li>
+<li>When facing an error always look up in Google.  Your BEST FRIEND for the next few years in college.</li>
+</ol>
+<h2 id="General-Github-instructions"><a href="#General-Github-instructions" class="headerlink" title="General Github instructions"></a>General Github instructions</h2><ol>
+<li>Read through this <a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="external">Github 10 min read post</a></li>
+<li>You dont need to learn everything. Just learn the things you need. Go through this <a href="https://try.github.io/levels/1/challenges/1" target="_blank" rel="external">website</a> if you still cant do it.  </li>
+<li>For your task you need to push into the repository created and send a pull request :p . Look those up in Google as well.</li>
+</ol>
+<h2 id="FYI-your-deadline-is-17-Saturday-Sep-2016"><a href="#FYI-your-deadline-is-17-Saturday-Sep-2016" class="headerlink" title="FYI: your deadline is 17 Saturday Sep 2016 ."></a>FYI: your deadline is 17 Saturday Sep 2016 .</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This blog post is for the freshers who are doing Geekhaven mentorship under me.I will update this post on regular interval to inform you new things you have to do.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Events and activities" scheme="http://gauthamzz.github.io/categories/Events-and-activities/"/>
+    
+    
+      <category term="Geekhaven,IIIT-A,College" scheme="http://gauthamzz.github.io/tags/Geekhaven-IIIT-A-College/"/>
+    
+      <category term="Geekhaven Technical Society" scheme="http://gauthamzz.github.io/tags/Geekhaven-Technical-Society/"/>
+    
+      <category term="IIIT-A" scheme="http://gauthamzz.github.io/tags/IIIT-A/"/>
+    
+      <category term="College" scheme="http://gauthamzz.github.io/tags/College/"/>
+    
+      <category term="Geekhaven" scheme="http://gauthamzz.github.io/tags/Geekhaven/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HackInTheNorth</title>
+    <link href="http://gauthamzz.github.io/2016/04/08/HackInTheNorth/"/>
+    <id>http://gauthamzz.github.io/2016/04/08/HackInTheNorth/</id>
+    <published>2016-04-08T04:40:12.000Z</published>
+    <updated>2017-09-21T23:05:34.875Z</updated>
+    
+    <content type="html"><![CDATA[<!--excerpt -->
+<p>Even the term Hackathon was a new one for a lot of people in Allahabad. If i had a penny for every time i herd what is a Hackathon i would be a very rich guy. But even in this situation we made it happen. And i am proud of being part of this wonderful team.<br>It was held as part of our tech fest Aparoksha and beginning itself it was decided it would be our flagship event.Due to the support from our sponsors Hackerearth , Mozilla and our faculty we raised enough funds to make it happen.</p>
+<p><a href="https://www.hackinthenorth.com/2016/" target="_blank" rel="external">View website</a></p>
+<p>All the participants had to do was take the first train to Allahabad with your laptop and we will provide you everything you want to hack . Participant were provided accommodation , food , T shirts and goodies :).</p>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/3a66fa6f00.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/3a670e2cd5.jpg" alt=""></div>
+<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/3a6e4316d3.jpg" alt=""></div>
+<p>We had more than 140 participants from all over India and most of them traveled at least 500 Kms. While talking to them i learned a lot about the things that are happening all over India. And watching them develop truly magnificent peaces of “art” (What they made looked like art) made me realize how much i can achieve in 3 days . And most of them taught me the valuable lesson of how to approach to a particular solution.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/3a6b51c1c8.jpg" alt=""></div>
+<p>Our judge Hackerearth CTO Vivek Prakash said he had never seen a student held Hackathon like this before and said<br><div class="alert success"><p>“Hack in the north is India’s biggest student held Hackathon “ </p>
+</div>truly made all of our in the team happy. Receiving this much recognition even in our first run.</p>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/3a6e1a7b13.jpg" alt=""></div>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/3a6e07b03e.jpg" alt=""></div>
+<p>The winners of the Hackathon made Castle Defence : Multiplayer game and generic android controller. They were really cool guys from MNIT Allahabad. I even saw them changing and adapting to the situation and in the end it all worked out well. I guess its all about perseverance, adaptability and hard-work. After all commitment is what transforms a promise into reality .All of the teams attended in the event were truly exceptional and our team wanted to give prices to all of them but right now they have to settle with t shirts.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="2.jpg" alt=""></div>
+<p>This experience was an amazing one for me and it wouldn’t have been so great without our team making it possible. I hope we can make next years Hackathon an even better one. I am sure we can with this team.</p>
+<p><a href="https://medium.com/@gauthamsanthosh/hack-in-the-north-2015-60c76a4d2988#.1ozewgw19" target="_blank" rel="external">view original medium post</a></p>
+<p><a href="https://www.facebook.com/thunderbolt.iiita/media_set?set=a.999369156809962.1073742109.100002106609068&amp;type=3&amp;qsefr=1" target="_blank" rel="external">view more images</a></p>
+<p>Thank you for reading :).</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;IIIT-Allahabad’s first ever Hackathon that became india’s biggest student held hackathon.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Events and activities" scheme="http://gauthamzz.github.io/categories/Events-and-activities/"/>
+    
+    
+      <category term="Hackathon" scheme="http://gauthamzz.github.io/tags/Hackathon/"/>
+    
+      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
+    
+      <category term="Hack In the North" scheme="http://gauthamzz.github.io/tags/Hack-In-the-North/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,594 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Gauthams Blog">
+    <title>Stegolica - Gauthams Blog</title>
+    <meta name="author" content="Gautham Santhosh">
+    
+        <meta name="keywords" content="hexo,javascript,Gautham Santhosh,gauthamzz,gautham,iim2014008,gauthams Blog,gautham santhosh,Steganography,stegolica,IIIT-A,Gautham Santhosh,gauthamzz">
+    
+    
+    
+        <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
+    
+    <meta name="description" content="Stegolica was held as part of Effervesence 2016 of IIIT Allahabad.
+Steganography is the practice of concealing messages or information within other non-secret text or data.
+This blog post contains all">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="Stegolica">
+<meta property="og:url" content="http://gauthamzz.github.io/2016/10/18/stegolica/index.html">
+<meta property="og:site_name" content="Gauthams Blog">
+<meta property="og:description" content="Stegolica was held as part of Effervesence 2016 of IIIT Allahabad.
+Steganography is the practice of concealing messages or information within other non-secret text or data.
+This blog post contains all">
+<meta property="og:image" content="http://gauthamzz.github.io/1.jpg">
+<meta property="og:image" content="http://gauthamzz.github.io/q.png">
+<meta property="og:image" content="http://gauthamzz.github.io/2.jpg">
+<meta property="og:image" content="http://gauthamzz.github.io/5.jpg">
+<meta property="og:image" content="http://gauthamzz.github.io/6.jpg">
+<meta property="og:image" content="http://gauthamzz.github.io/b.png">
+<meta property="og:image" content="http://gauthamzz.github.io/7.png">
+<meta property="og:updated_time" content="2017-09-21T23:29:57.867Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Stegolica">
+<meta name="twitter:description" content="Stegolica was held as part of Effervesence 2016 of IIIT Allahabad.
+Steganography is the practice of concealing messages or information within other non-secret text or data.
+This blog post contains all">
+<meta name="twitter:image" content="http://gauthamzz.github.io/1.jpg">
+    
+    
+        
+    
+    
+        <meta property="og:image" content="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+    
+    
+        <meta property="og:image" content="http://gauthamzz.github.io/2016/10/18/stegolica/steno.jpg"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://gauthamzz.github.io/2016/10/18/stegolica/steno.jpg" />
+    
+    
+        <meta property="og:image" content="http://gauthamzz.github.io/2016/10/18/stegolica/steno.jpg"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://gauthamzz.github.io/2016/10/18/stegolica/steno.jpg" />
+    
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/css/style-nuvue6sithwirecbhvw3dkaobiojqvtadsnhguwi7k04xklybw5djl1smadp.min.css">
+    <!--STYLES END-->
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-82762642-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    
+</head>
+
+    <body>
+        <div id="blog">
+            <!-- Define author's picture -->
+
+
+    
+        
+            
+        
+    
+
+<header id="header" data-behavior="3">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="/ ">Gauthams Blog</a>
+    </h1>
+    
+        
+            <a  class="header-right-picture "
+                href="#about">
+        
+        
+            <img class="header-picture" src="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+        
+        </a>
+    
+</header>
+
+            <!-- Define author's picture -->
+
+
+
+        
+    
+
+<nav id="sidebar" data-behavior="3">
+    
+        <div class="sidebar-profile">
+            <a href="/#about">
+                    <img class="sidebar-profile-picture" src="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+            </a>
+            <span class="sidebar-profile-name">Gautham Santhosh</span>
+        </div>
+    
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/ "
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">Home</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/all-categories"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+                    <span class="sidebar-button-desc">Categories</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="#about"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+                    <span class="sidebar-button-desc">About</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://drive.google.com/file/d/0By4wRKJ5_4qJSUFyQ3doanlEQ00/view" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+                    <span class="sidebar-button-desc">Resume</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://github.com/gauthamzz" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://facebook.com/gauthamzz" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-facebook"></i>
+                    <span class="sidebar-button-desc">Facebook</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/atom.xml"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+
+            
+        <div class="post-header-cover
+                    text-center
+                    post-header-cover--full"
+             style="background-image:url('/2016/10/18/stegolica/steno.jpg');"
+             data-behavior="3">
+            
+        </div>
+
+            <div id="main" data-behavior="3"
+                 class="hasCover
+                        hasCoverMetaOut
+                        hasCoverCaption">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+        <span class="post-header-cover-caption caption">Stegolica 2016</span>
+    
+    
+        <div class="post-header main-content-wrap text-center">
+    
+        <h1 class="post-title" itemprop="headline">
+            Stegolica
+        </h1>
+        <p> 5 min. read </p>
+    
+    <div class="post-meta">
+    <time itemprop="datePublished" datetime="2016-10-18T13:57:54+05:30">
+	
+		    Oct 18, 2016
+    	
+    </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/Events-and-activities/">Events and activities</a>
+
+
+    
+</div>
+
+</div>
+    
+    <div class="post-content markdown" itemprop="articleBody">
+        <div class="main-content-wrap">
+            <p><a href="http://stegolica/effe.org.in/website/" target="_blank" rel="external">Stegolica</a> was held as part of <a href="http://effe.org.in" target="_blank" rel="external">Effervesence</a> 2016 of IIIT Allahabad.</p>
+<p>Steganography is the practice of concealing messages or information within other non-secret text or data.</p>
+<p>This blog post contains all the questions and their solutions for the event.</p>
+<a id="more"></a>
+<h2 id="Question"><a href="#Question" class="headerlink" title="Question"></a>Question</h2><p>This book served as the primary basis for which film? (Haha blank image right, but look closer)</p>
+<p><img src="1.jpg" alt="alt text"></p>
+<p>Answer:</p>
+<div class="alert success"><p>bladerunner</p>
+</div>
+<p>Solution:</p>
+<p>Tilt the screen in a certain viewing angle then you can see the text “ Do android dream of electric sheep”</p>
+<p>Alternatively</p>
+<p>Open in Photoeditor and apply any filter to the image. And you will get</p>
+<p><img src="q.png" alt="alt text"></p>
+<h2 id="Question-1"><a href="#Question-1" class="headerlink" title="Question"></a>Question</h2><p>Whose line is this ?</p>
+<p><img src="2.jpg" alt="alt text"></p>
+<p>Answer:<br><div class="alert success"><p>jerrymaguire</p>
+</div></p>
+<p>Solution: The line is “show me the money” from the movie jerry maguire.</p>
+<p>If you zoom into the image closely you will see that the image is made of the text show me the money.</p>
+<h2 id="Question-2"><a href="#Question-2" class="headerlink" title="Question"></a>Question</h2><p>Guess the hidden word i say when i get an idea for a question?</p>
+<p>(PDF FILE)[<a href="https://drive.google.com/file/d/0By4wRKJ5_4qJNkpnOWxxS1U5ZmM/view" target="_blank" rel="external">https://drive.google.com/file/d/0By4wRKJ5_4qJNkpnOWxxS1U5ZmM/view</a>]</p>
+<p>Answer:<br><div class="alert success"><p>bazinga</p>
+</div></p>
+<p>Solution:</p>
+<p>The text is in white colour in the pdf file. so open in any pdf editor and you can change the colour of the font or you can open in any pdf viwer and highlight all text and you see something like this.</p>
+<p>BAZINGA</p>
+<h2 id="Question-3"><a href="#Question-3" class="headerlink" title="Question"></a>Question</h2><p>Who is the man behind these companies? <a href="https://www.youtube.com/watch?v=Yq7i2aaGkW8" target="_blank" rel="external">Video Question</a></p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/Yq7i2aaGkW8" frameborder="0" allowfullscreen></iframe></div>
+<p>Answer:<br><div class="alert success"><p>elonmusk</p>
+</div></p>
+<p>Solution:</p>
+<p>If you play the video very slow then you will see these texts comming up and flashing away very quick, yeah like in fight club. You saw it but you didnt.</p>
+<p>Solar City at 9:00.<br>Paypal at 22:17.<br>Zip2 at 40:17.<br>Paypal at 58:23.<br>Tesla at 1:08:10</p>
+<h2 id="Question-4"><a href="#Question-4" class="headerlink" title="Question"></a>Question</h2><p>Which song am i talking about?<br><a href="https://drive.google.com/file/d/0By4wRKJ5_4qJRWhZTkV0VnVPN1U/view?usp=sharing" target="_blank" rel="external">PSD File</a></p>
+<p>which looks something like this (Institute Library)</p>
+<p>Answer:<br><div class="alert success"><p>blankspace</p>
+</div></p>
+<p>Solution:</p>
+<p>Open in Photoeditor.<br>Untick layers 2,3,4,5<br>Increase the opacity of the group from 0 to 100 ( Optional only needed in some photoeditors if you dont see the text yet)</p>
+<p>you will see the text “OMG look at that face you look like my next mistake”. A line from the Taylor Swift song blank space.</p>
+<h2 id="Question-5"><a href="#Question-5" class="headerlink" title="Question"></a>Question</h2><p>What is the blind mans last name ?</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJcjBKZDQzRDRqRUE" target="_blank" rel="external">Audio File</a></p>
+<p>Answer:<br><div class="alert success"><p>slade</p>
+</div></p>
+<p>Solution:<br>If you reverse the audio you will see that the audio track is from the movie “scent of a woman”.<br>Conversation/Speech between Mr Slade (Al Pacino as the Blind Man) and Mr Trask.</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJWTVEUHRMOHpXelU" target="_blank" rel="external">Audio File</a> when reversed.</p>
+<p><a href="https://www.youtube.com/watch?v=ypx1Stz8zN0" target="_blank" rel="external">Full Speech</a></p>
+<h2 id="Question-6"><a href="#Question-6" class="headerlink" title="Question"></a>Question</h2><p>Where is the key ?</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJNjNQX25TMU5ZT2s" target="_blank" rel="external">Image file</a></p>
+<p>The image looks like this ( Do not download this image to solve)</p>
+<p><img src="5.jpg" alt="alt image"></p>
+<p>Answer:<br><div class="alert success"><p>withinyourself</p>
+</div></p>
+<p>Solution:<br>if you open the image in any text editor you will see.</p>
+<h2 id="Question-7"><a href="#Question-7" class="headerlink" title="Question"></a>Question</h2><p>My fav personal assistant</p>
+<p><img src="6.jpg" alt="alt image"></p>
+<p>Answer:<br><div class="alert success"><p>jarvis</p>
+</div></p>
+<p>Solution:</p>
+<p>In image description you will find</p>
+<p>Artist : multimillionaire,philantropist ,genius ,playboy which means Iron Man(Tony Stark)<br>Descritpion : Just A Rather Very Intelligent System (JARVIS)</p>
+<h2 id="Question-8"><a href="#Question-8" class="headerlink" title="Question"></a>Question</h2><p>A Terrorist tweeted the next target location where ?<br><img src="b.png" alt="alt text"></p>
+<p>Answer:<br><div class="alert success"><p>tajmahal</p>
+</div></p>
+<p>Solution:</p>
+<p>If you discrad all the text and only take numbers into consideration.</p>
+<p>27 174 78 and 04 can be found.</p>
+<p>We represent a location by numbers using latitude and longitude .</p>
+<p>so 27.174 and 78.04 means taj mahal</p>
+<h2 id="Question-9"><a href="#Question-9" class="headerlink" title="Question"></a>Question</h2><p>Which character says this ?(take e=2.718)</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJdHZWRnMzTk1zVDQ" target="_blank" rel="external">Image link</a></p>
+<p><img src="7.png" alt="alt text"></p>
+<p>Answer :<br><div class="alert success"><p>buzzlightyear</p>
+</div></p>
+<p>Solution:</p>
+<p>Change the extension of the image file from png to zip.<br>After extraction you will get.</p>
+<p>Taking e ad 2.718 ,i.e taking 2nd 7th 1st and 8th image we get two, infinity , and , beyond respectively.</p>
+<p>To infinity and beyond is by the toy story character buzzlightyear.</p>
+<h2 id="Question-12"><a href="#Question-12" class="headerlink" title="Question 12"></a>Question 12</h2><p>Who is it?</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJLUNsdVdjMG1zTjQ" target="_blank" rel="external">Image Link</a></p>
+<p>Image looks like, please use the above link to download .</p>
+<p>Answer :<br><div class="alert success"><p>samuelljackson</p>
+</div></p>
+<p>Solution:</p>
+<p>If you change the file extension to zip then unzip it you will get an image.<br>When you change its extension and unzip it , you will get another.<br>If you do this again and again you will get these images.<br>And in the final image when opened as a text file, it is given the solution is the actor who acted in all of these movies.</p>
+<h2 id="Question-13"><a href="#Question-13" class="headerlink" title="Question 13"></a>Question 13</h2><p>From which movie is this dialogue</p>
+<p><a href="https://drive.google.com/open?id=0By4wRKJ5_4qJMllDZWRXTllGcWM" target="_blank" rel="external">Audio link</a></p>
+<p>Answer:<br><div class="alert success"><p>titanic</p>
+</div></p>
+<p>Solution:</p>
+<p>The soundtrack is 528491 from the movie inception.</p>
+<p>If you change the extension of the audio to zip from mp3 you will get this text file containing.</p>
+<p>When you take the 5th 2nd 8th 4th 9th and 1st word of quotes in order you will get.<br>“i’m the king of the world” from the movie titanic</p>
+<h1 id="Thank-you-for-reading"><a href="#Thank-you-for-reading" class="headerlink" title="Thank you for reading"></a>Thank you for reading</h1><p>The source code to the website can be found at <a href="https://github.com/gauthamzz/stegolica" target="_blank" rel="external">Stegolica Repo</a> in my github account.</p>
+<p>The webapp was developed using Django and hosted in openshift.</p>
+
+            
+        </div>
+    </div>
+    <div id="post-footer" class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/Effervesence-2016/">Effervesence 2016</a> <a class="tag tag--primary tag--small t-link" href="/tags/Hidden-messages/">Hidden messages</a> <a class="tag tag--primary tag--small t-link" href="/tags/IIIT-A/">IIIT-A</a> <a class="tag tag--primary tag--small t-link" href="/tags/Online-Event/">Online Event</a> <a class="tag tag--primary tag--small t-link" href="/tags/Steganography/">Steganography</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/11/04/Trip2Rishikesh/Trip2Rishikesh/"  data-tooltip="Trip2Rishikesh">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/09/12/IIITAHacks/" data-tooltip="IIITAHacks">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://gauthamzz.github.io/2016/10/18/stegolica/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://gauthamzz.github.io/2016/10/18/stegolica/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://gauthamzz.github.io/2016/10/18/stegolica/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+        
+            
+                <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+            
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2017 Gautham Santhosh. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="3">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/11/04/Trip2Rishikesh/Trip2Rishikesh/"  data-tooltip="Trip2Rishikesh">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/09/12/IIITAHacks/" data-tooltip="IIITAHacks">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://gauthamzz.github.io/2016/10/18/stegolica/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://gauthamzz.github.io/2016/10/18/stegolica/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://gauthamzz.github.io/2016/10/18/stegolica/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+                </div>
+                <div id="share-options-bar" class="share-options-bar" data-behavior="3">
+    <ul class="share-options">
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://gauthamzz.github.io/2016/10/18/stegolica/">
+                <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://gauthamzz.github.io/2016/10/18/stegolica/">
+                <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://gauthamzz.github.io/2016/10/18/stegolica/">
+                <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+            
+        </div>
+        
+
+
+    
+        
+    
+
+<div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+        
+            <h4 id="about-card-name">Gautham Santhosh</h4>
+        
+            <h5 id="about-card-bio"><p>Presently student at Indian Institute of Information Technology Allahabad for integrated M-Tech in Intelligent Systems. Originally from Mannanam,Kottayam,Kerala.</p>
+</h5>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>Student</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                India
+            </h5>
+        
+    </div>
+</div>
+
+        
+<div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/assets/js/script-i4qo6jx6jji9fg0dftpya6ivemizsbow4fhow76d8dwpm7m1wbvi378ssumx.min.js"></script>
+<!--SCRIPTS END-->
+
+    
+        <script>
+             var disqus_config = function () {
+                 this.page.url = 'http://gauthamzz.github.io/2016/10/18/stegolica/';
+                 
+                    this.page.identifier = '2016/10/18/stegolica/';
+                                  
+             };
+            (function() {
+                var d = document, s = d.createElement('script');
+                var disqus_shortname = 'gauthamsanthosh';
+                s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+    
+
+
+
+</html>

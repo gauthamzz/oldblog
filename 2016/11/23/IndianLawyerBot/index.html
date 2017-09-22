@@ -1,0 +1,519 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Gauthams Blog">
+    <title>IndianLawyerBot - Gauthams Blog</title>
+    <meta name="author" content="Gautham Santhosh">
+    
+        <meta name="keywords" content="hexo,javascript,Gautham Santhosh,gauthamzz,gautham,iim2014008,gauthams Blog,gautham santhosh,IndianLawyerBot,Chatbot,messenger bot,telegram bot">
+    
+    
+    
+        <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
+    
+    <meta name="description" content="A chatbot i have made which acts as a Legal Expert in India.">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="IndianLawyerBot">
+<meta property="og:url" content="http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/index.html">
+<meta property="og:site_name" content="Gauthams Blog">
+<meta property="og:description" content="A chatbot i have made which acts as a Legal Expert in India.">
+<meta property="og:image" content="http://i.imgsafe.org/4febc43296.gif">
+<meta property="og:image" content="http://i.imgsafe.org/4febd74dfb.gif">
+<meta property="og:image" content="http://i.imgsafe.org/4febde3365.gif">
+<meta property="og:image" content="http://i.imgsafe.org/4febea4cf0.gif">
+<meta property="og:image" content="http://i.imgsafe.org/4febf26a81.gif">
+<meta property="og:image" content="http://i.imgsafe.org/4febf960b7.gif">
+<meta property="og:image" content="http://i.imgsafe.org/502b303b56.png">
+<meta property="og:updated_time" content="2017-01-15T20:11:06.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IndianLawyerBot">
+<meta name="twitter:description" content="A chatbot i have made which acts as a Legal Expert in India.">
+<meta name="twitter:image" content="http://i.imgsafe.org/4febc43296.gif">
+    
+    
+        
+    
+    
+        <meta property="og:image" content="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+    
+    
+        <meta property="og:image" content="http://i.imgsafe.org/4fe9cba434.png"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://i.imgsafe.org/4fe9cba434.png" />
+    
+    
+        <meta property="og:image" content="http://i.imgsafe.org/4fe9be5903.png"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://i.imgsafe.org/4fe9be5903.png" />
+    
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/css/style-nuvue6sithwirecbhvw3dkaobiojqvtadsnhguwi7k04xklybw5djl1smadp.min.css">
+    <!--STYLES END-->
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-82762642-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    
+</head>
+
+    <body>
+        <div id="blog">
+            <!-- Define author's picture -->
+
+
+    
+        
+            
+        
+    
+
+<header id="header" data-behavior="3">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="/ ">Gauthams Blog</a>
+    </h1>
+    
+        
+            <a  class="header-right-picture "
+                href="#about">
+        
+        
+            <img class="header-picture" src="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+        
+        </a>
+    
+</header>
+
+            <!-- Define author's picture -->
+
+
+
+        
+    
+
+<nav id="sidebar" data-behavior="3">
+    
+        <div class="sidebar-profile">
+            <a href="/#about">
+                    <img class="sidebar-profile-picture" src="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+            </a>
+            <span class="sidebar-profile-name">Gautham Santhosh</span>
+        </div>
+    
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/ "
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">Home</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/all-categories"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+                    <span class="sidebar-button-desc">Categories</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="#about"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+                    <span class="sidebar-button-desc">About</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://drive.google.com/file/d/0By4wRKJ5_4qJSUFyQ3doanlEQ00/view" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+                    <span class="sidebar-button-desc">Resume</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://github.com/gauthamzz" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://facebook.com/gauthamzz" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-facebook"></i>
+                    <span class="sidebar-button-desc">Facebook</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/atom.xml"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+
+            
+        <div class="post-header-cover
+                    text-center
+                    post-header-cover--full"
+             style="background-image:url('http://i.imgsafe.org/4fe9be5903.png');"
+             data-behavior="3">
+            
+        </div>
+
+            <div id="main" data-behavior="3"
+                 class="hasCover
+                        hasCoverMetaOut
+                        hasCoverCaption">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+        <span class="post-header-cover-caption caption">IndianLawyerBot</span>
+    
+    
+        <div class="post-header main-content-wrap text-center">
+    
+        <h1 class="post-title" itemprop="headline">
+            IndianLawyerBot
+        </h1>
+        <p> 2 min. read </p>
+    
+    <div class="post-meta">
+    <time itemprop="datePublished" datetime="2016-11-23T07:55:38+05:30">
+	
+		    Nov 23, 2016
+    	
+    </time>
+    
+        <span>in </span>
+        
+    <a class="category-link" href="/categories/Projects/">Projects</a>
+
+
+    
+</div>
+
+</div>
+    
+    <div class="post-content markdown" itemprop="articleBody">
+        <div class="main-content-wrap">
+            <p>A chatbot i have made which acts as a Legal Expert in India.</p>
+<a id="more"></a>
+<p>All gifs are of facebook messenger.</p>
+<h2 id="What-happens-when-you-say-hi"><a href="#What-happens-when-you-say-hi" class="headerlink" title="What happens when you say hi"></a>What happens when you say hi</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febc43296.gif" alt=""></div>
+<ul>
+<li>The bot presently recognizes sections related to verbal and physical abuses.</li>
+<li>Lets see how it reacts.</li>
+<li>I have added quick replies as well as text response for ease of use.</li>
+</ul>
+<h2 id="When-you-click-physical-gestures"><a href="#When-you-click-physical-gestures" class="headerlink" title="When you click physical gestures"></a>When you click physical gestures</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febd74dfb.gif" alt=""></div>
+<p>All the cases of which bot travels is not seen in this blog as i try to show only one of a type. Sections change according to the decision made on</p>
+<ul>
+<li>what is the cause  </li>
+<li>weapon</li>
+<li>how deep is the hurt</li>
+<li>other factors in special cases</li>
+</ul>
+<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febde3365.gif" alt=""></div>
+<h2 id="When-you-want-to-know-about-crimes-related-to-verbal-gestures"><a href="#When-you-want-to-know-about-crimes-related-to-verbal-gestures" class="headerlink" title="When you want to know about crimes related to verbal gestures"></a>When you want to know about crimes related to verbal gestures</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febea4cf0.gif" alt=""></div>
+<h2 id="When-you-want-to-know-what-happens-next"><a href="#When-you-want-to-know-what-happens-next" class="headerlink" title="When you want to know what happens next"></a>When you want to know what happens next</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febf26a81.gif" alt=""></div>
+<p>Now time for some fun with the bot</p>
+<h2 id="Adding-small-talk"><a href="#Adding-small-talk" class="headerlink" title="Adding small talk"></a>Adding small talk</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febf960b7.gif" alt=""></div>
+<h2 id="Wanna-Try-it-out"><a href="#Wanna-Try-it-out" class="headerlink" title="Wanna Try it out"></a>Wanna Try it out</h2><h2 id="Telegram"><a href="#Telegram" class="headerlink" title="Telegram"></a>Telegram</h2><p>But you can talk to the bot in Telegram under @IndianLawyerBot</p>
+<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/502b303b56.png" alt=""></div>
+<h2 id="Facebook-messenger"><a href="#Facebook-messenger" class="headerlink" title="Facebook messenger"></a>Facebook messenger</h2><p>The bot messenger in not avaliable for public in facebook yet as we need to make the privacy policy. But if you contact me i can let you in a sneek peek. When avalible you can access it through the <a href="https://www.facebook.com/indainlawyerbot/" target="_blank" rel="external">facebook page</a>.</p>
+<h2 id="Slack-bot"><a href="#Slack-bot" class="headerlink" title="Slack bot"></a>Slack bot</h2><p>Need some more procedures to be done before it becomes public.</p>
+<p>Credits :<br>Amrit Daimary and Ankit Pettkar for helping me with this project.<br>Adv. K M Santhoshkumar for being out feild expert while making this bot.</p>
+<h1 id="Thank-you-for-reading-and-have-a-nice-day"><a href="#Thank-you-for-reading-and-have-a-nice-day" class="headerlink" title="Thank you for reading and have a nice day :)"></a>Thank you for reading and have a nice day :)</h1>
+            
+        </div>
+    </div>
+    <div id="post-footer" class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/Chatbot/">Chatbot</a> <a class="tag tag--primary tag--small t-link" href="/tags/Expert-System/">Expert System</a> <a class="tag tag--primary tag--small t-link" href="/tags/IndianLawyerBot/">IndianLawyerBot</a> <a class="tag tag--primary tag--small t-link" href="/tags/messenger-bot/">messenger bot</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/02/23/opencode/"  data-tooltip="Opencode">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/11/04/Trip2Rishikesh/Trip2Rishikesh/" data-tooltip="Trip2Rishikesh">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+        
+            
+                <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+            
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2017 Gautham Santhosh. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="3">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/02/23/opencode/"  data-tooltip="Opencode">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/11/04/Trip2Rishikesh/Trip2Rishikesh/" data-tooltip="Trip2Rishikesh">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+                </div>
+                <div id="share-options-bar" class="share-options-bar" data-behavior="3">
+    <ul class="share-options">
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/">
+                <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/">
+                <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/">
+                <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+            
+        </div>
+        
+
+
+    
+        
+    
+
+<div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+        
+            <h4 id="about-card-name">Gautham Santhosh</h4>
+        
+            <h5 id="about-card-bio"><p>Presently student at Indian Institute of Information Technology Allahabad for integrated M-Tech in Intelligent Systems. Originally from Mannanam,Kottayam,Kerala.</p>
+</h5>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>Student</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                India
+            </h5>
+        
+    </div>
+</div>
+
+        
+<div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/assets/js/script-i4qo6jx6jji9fg0dftpya6ivemizsbow4fhow76d8dwpm7m1wbvi378ssumx.min.js"></script>
+<!--SCRIPTS END-->
+
+    
+        <script>
+             var disqus_config = function () {
+                 this.page.url = 'http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/';
+                 
+                    this.page.identifier = '2016/11/23/IndianLawyerBot/';
+                                  
+             };
+            (function() {
+                var d = document, s = d.createElement('script');
+                var disqus_shortname = 'gauthamsanthosh';
+                s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+    
+
+
+
+</html>
