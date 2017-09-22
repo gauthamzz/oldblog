@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gauthamzz.github.io/"/>
-  <updated>2017-09-22T22:48:56.519Z</updated>
+  <updated>2017-09-22T23:08:44.715Z</updated>
   <id>http://gauthamzz.github.io/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Audio Style Transfer</title>
+    <title>AudioStyleTransfer</title>
     <link href="http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/"/>
     <id>http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/</id>
     <published>2017-09-22T21:59:38.000Z</published>
-    <updated>2017-09-22T22:48:56.519Z</updated>
+    <updated>2017-09-22T23:08:44.715Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt --></p>
 <p>Technically CycleGAN gives you epic results <a href="https://junyanz.github.io/CycleGAN/" target="_blank" rel="external">like</a></p>
@@ -43,16 +43,13 @@
 <p>a) Style 1<br>b) Style 2 applied on Style 1<br>c) Style 2<br>d) Style 1 applied on Style 2</p>
 <p>Turns out the unpaired image thing is pretty sweet.</p>
 <h1 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h1><p>Style 1 </p>
-<audio src="media2.wav" controls preload=""></audio>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343612064&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-<p>Style 2 applied on Style 1</p>
-<audio src="media3.wav" controls preload=""></audio>
-
-<p>Style 2</p>
-<audio src="media4.wav" controls preload=""></audio>
+<p>Style 2 applied on Style 1<br><!-- <audio src="media3.wav" controls preload></audio> --></p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343611244&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe><br>Style 2<br><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343612117&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 <p>Style 1 applied on Style 2</p>
-<audio src="media5.wav" controls preload=""></audio>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343611995&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 <p>Yesh the second one sounds fine and fourth one ripped your ear off.</p>
 <p>I was too lazy to convert and see it works all the time.</p>
