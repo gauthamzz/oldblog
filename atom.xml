@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gauthamzz.github.io/"/>
-  <updated>2017-09-22T05:01:20.259Z</updated>
+  <updated>2017-09-22T22:43:24.363Z</updated>
   <id>http://gauthamzz.github.io/</id>
   
   <author>
@@ -16,16 +16,81 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Audio Style Transfer</title>
+    <link href="http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/"/>
+    <id>http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/</id>
+    <published>2017-09-22T21:59:38.000Z</published>
+    <updated>2017-09-22T22:43:24.363Z</updated>
+    
+    <content type="html"><![CDATA[<!--excerpt --></p>
+<p>Technically CycleGAN gives you epic results <a href="https://junyanz.github.io/CycleGAN/" target="_blank" rel="external">like</a></p>
+ <div class="figure " style="width:;"><img class="fig-img" src="https://github.com/junyanz/CycleGAN/raw/master/imgs/horse2zebra.gif" alt=""></div>
+<p>The code written so bad that it gave images like these.</p>
+<div class="figure fig-50" style="width:;"><img class="fig-img" src="image11.png" alt=""></div><div class="figure fig-50" style="width:;"><img class="fig-img" src="image8.gif" alt=""></div><div class="figure fig-50" style="width:;"><img class="fig-img" src="image9.gif" alt=""></div>
+<p>Well not all were bad, but some are pretty awful.</p>
+<p>So to put use of my slow laptop, i decided to apply the idea in another domain. Apply on sounds.</p>
+<p>Wait wait….</p>
+<p>Lets look at cycleGan first<br><div class="figure " style="width:;"><img class="fig-img" src="image6.png" alt=""></div></p>
+<p>Basic idea is you have image of one style ,you copy that style to another(Yeah like the Prisma APP which was so viral and you dowanloaded it then and you forgot to delete it. Now its just wasting space in your mobile device).</p>
+<p>Cool thing is you only need unpaired image samples. So google some stuff copy some images and you have a dataset. </p>
+<p>If you wanna know more read the paper. In short it has a cyclic loss with the Adversarial loss.</p>
+<h1 id="Our-Tweak"><a href="#Our-Tweak" class="headerlink" title="Our Tweak"></a>Our Tweak</h1><p>Lets convert audio to image and apply the same thing. </p>
+<div class="figure " style="width:;"><img class="fig-img" src="image15.png" alt=""></div>
+<p>So i did it on greyscale. Yes im too impatient to wait for an RGB to train to see if a hypothesis works.</p>
+<p>So we took 20 second audio and converted to Greysacle image and applied CycleGAN.</p>
+<p>We got this.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="image16.png" alt=""></div>
+<p>a) Style 1<br>b) Style 2 applied on Style 1<br>c) Style 2<br>d) Style 1 applied on Style 2</p>
+<p>Turns out the unpaired image thing is pretty sweet.</p>
+<h1 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h1><p>Style 1 </p>
+<audio src="media2.wav" controls preload=""></audio>
+
+<p>Style 2 applied on Style 1</p>
+<audio src="media3.wav" controls preload=""></audio>
+
+<p>Style 2</p>
+<audio src="media4.wav" controls preload=""></audio>
+
+<p>Style 1 applied on Style 2</p>
+<audio src="media5.wav" controls preload=""></audio>
+
+<p>Yesh the second one sounds fine and fourth one ripped your ear off.</p>
+<p>I was too lazy to convert and see it works all the time.</p>
+<p>Well it gets good at some point of training then it starts producing results which will rip your ear off again.</p>
+<p>Yaay good news,its works. </p>
+<p>If you make a better network it will give you better results and maybe apply some noise filter.<br>Ah! ill do that another day. </p>
+<p>Now look at this epic tiget to panther conversion. </p>
+<div class="figure " style="width:;"><img class="fig-img" src="image3.gif" alt=""></div><div class="figure " style="width:;"><img class="fig-img" src="image2.gif" alt=""></div>
+<p>If you have some intersting ideas comment below. Lets try some stuff.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;So on a bright day playing with &lt;a href=&quot;https://github.com/junyanz/CycleGAN&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CycleGan&lt;/a&gt; a bit for audio style transfer.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Experiments" scheme="http://gauthamzz.github.io/categories/Experiments/"/>
+    
+    
+      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
+    
+      <category term="Audio Style Transfer" scheme="http://gauthamzz.github.io/tags/Audio-Style-Transfer/"/>
+    
+      <category term="CycleGAN" scheme="http://gauthamzz.github.io/tags/CycleGAN/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Nybles</title>
     <link href="http://gauthamzz.github.io/2017/08/15/nybles/"/>
     <id>http://gauthamzz.github.io/2017/08/15/nybles/</id>
     <published>2017-08-14T23:48:54.000Z</published>
-    <updated>2017-09-22T05:01:20.259Z</updated>
+    <updated>2017-09-22T05:07:30.223Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
 <p>I started a Tech newsletter</p>
 <h1 id="Why-nybles-Why-not-any-other-name"><a href="#Why-nybles-Why-not-any-other-name" class="headerlink" title="Why nybles? Why not any other name"></a>Why nybles? Why not any other name</h1><p>Nybles or Nibble is a unit of information. 4 bits or 0.5 byte is a Nibble or a Nyble. Well we couldnt get the Nibble domain so we went with the other one.</p>
-<h2 id="Nyble-is-half-a-byte"><a href="#Nyble-is-half-a-byte" class="headerlink" title="Nyble is half a byte"></a>Nyble is half a byte</h2><h1 id="Why-a-tech-newsletter-Why-not-a-general-college-newletter"><a href="#Why-a-tech-newsletter-Why-not-a-general-college-newletter" class="headerlink" title="Why a tech newsletter? Why not a general college newletter?"></a>Why a tech newsletter? Why not a general college newletter?</h1><p>IIIT Allahabad is a small college,information is can travel quickly via word of mouth over here.</p>
+<h3 id="A-Nyble-is-half-a-byte"><a href="#A-Nyble-is-half-a-byte" class="headerlink" title="A Nyble is half a byte"></a>A Nyble is half a byte</h3><h1 id="Why-a-tech-newsletter-Why-not-a-general-college-newletter"><a href="#Why-a-tech-newsletter-Why-not-a-general-college-newletter" class="headerlink" title="Why a tech newsletter? Why not a general college newletter?"></a>Why a tech newsletter? Why not a general college newletter?</h1><p>IIIT Allahabad is a small college,information is can travel quickly via word of mouth over here.</p>
 <p>On the other hand,I felt the gap between the industry or research is growing wider and wider. What i read on the internet or herd from people who are not in this College,often is an alien language to people here.</p>
 <p>So we can say it is a “Translater”, for the Klingon the Industry speaks. </p>
 <h2 id="On-12-August-2017-Nybles-released-Version-1-0"><a href="#On-12-August-2017-Nybles-released-Version-1-0" class="headerlink" title="On 12 August 2017, Nybles released Version 1.0."></a>On 12 August 2017, Nybles released Version 1.0.</h2><p><img src="https://farm5.staticflickr.com/4401/36211463080_81d3f17228_b.jpg" alt="Inaguration"><br>Nybles is now recognised as an International Tech Newsletter by the Indian Institute of Information Technology, Allahabad.</p>
@@ -59,7 +124,7 @@
 <li>Mobile App to be developed using react native, Probable date of release October 2017.</li>
 <li>Better integration of WebApp and Chatbot.</li>
 </ul>
-<p>I’ll be stepping down from the position of Editor in Cheif from this edition. As the team is amazing now and Nybles is now live. </p>
+<p>I’ll be stepping down from the position of Editor in Cheif from this edition. As the team is amazing now and Nybles is now live. Now ill search for another problem to solve and find my place in the Universe. </p>
 <p>Visit Nyble at <a href="http://nybles.tech/" target="_blank" rel="external">nybles.tech</a><br><a href="https://nybles.github.io/team/" target="_blank" rel="external">Team</a></p>]]></content>
     
     <summary type="html">

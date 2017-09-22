@@ -149,22 +149,36 @@
     </url>
 
     <url>
-        <loc>http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/</loc>
-        <lastmod>2017-09-22T05:01:20.259Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://gauthamzz.github.io/tags/Tech-Newsletter/</loc>
-        <lastmod>2017-09-22T05:01:20.259Z</lastmod>
+        <lastmod>2017-09-22T05:07:30.223Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://gauthamzz.github.io/tags/nybles/</loc>
-        <lastmod>2017-09-22T05:01:20.259Z</lastmod>
+        <lastmod>2017-09-22T05:07:30.223Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/</loc>
+        <lastmod>2017-09-22T22:43:24.363Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Audio-Style-Transfer/</loc>
+        <lastmod>2017-09-22T22:43:24.363Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/CycleGAN/</loc>
+        <lastmod>2017-09-22T22:43:24.363Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
