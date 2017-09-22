@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gauthamzz.github.io/"/>
-  <updated>2017-06-30T11:54:27.106Z</updated>
+  <updated>2017-09-22T00:00:45.000Z</updated>
   <id>http://gauthamzz.github.io/</id>
   
   <author>
@@ -16,11 +16,70 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Nybles</title>
+    <link href="http://gauthamzz.github.io/2017/08/15/nybles/"/>
+    <id>http://gauthamzz.github.io/2017/08/15/nybles/</id>
+    <published>2017-08-14T23:48:54.000Z</published>
+    <updated>2017-09-22T00:00:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<!--excerpt -->
+<p>I started a Tech newsletter</p>
+<p>On 12 August 2017, Nybles released Version 1.0.</p>
+<p><img src="https://farm5.staticflickr.com/4401/36211463080_81d3f17228_b.jpg" alt="Inaguration"><br>Nybles is now recognised as an International Tech Newsletter by the Indian Institute of Information Technology, Allahabad.</p>
+<h2 id="Our-Journey-so-far"><a href="#Our-Journey-so-far" class="headerlink" title="Our Journey so far"></a>Our Journey so far</h2><p>We started beta edition of website .<br><a href="https://nybles.github.io/beta-website/" target="_blank" rel="external">View Old website</a> <a href="https://github.com/nybles/adam" target="_blank" rel="external">Code on Github</a></p>
+<p>The website was based on Jekyll. Adding an article was tedious since it required one to send a Pull request. Even though the team developed an  <a href="https://nybles.github.io/markdown-editor/" target="_blank" rel="external">editor</a> to make it with ease people still found it hard.</p>
+<p><img src="https://preview.ibb.co/hgUfpv/old.png" alt="beta website"></p>
+<p>==Closing in on Quantum Computing<br>12 Mar 2017<br>By Elaine Mary Rose - 7 min read==</p>
+<p>Was the first article to be published on the beta version.<br>During revamp we are only taking the top 5 articles based on Google Analytics to the new platform.</p>
+<p>So after 5 months on the same date we are releasing  version 1.0.</p>
+<p>We are making some changes during this auspicious time</p>
+<h3 id="New-website"><a href="#New-website" class="headerlink" title="New website :"></a>New website :</h3><p>The new website will be served on Ghost.org . </p>
+<p><img src="https://media.giphy.com/media/clgzYtpZr7SPS/giphy.gif" alt="Website"></p>
+<p><strong>Why Ghost?</strong></p>
+<p>We wanted</p>
+<ul>
+<li>Amazing admin panel</li>
+<li>Quick integration with API’s such as slack,facebook comments etc.</li>
+<li>Markdown </li>
+<li>You can checkout its cool other features at <a href="ghost.org">Ghost.org</a></li>
+</ul>
+<p>We were using Jekyll till now, but sending pr for articles takes too much effort and learning curve for every new writer was high.</p>
+<p>Our development goal is new develop new theme for Ghost which will suit our needs.</p>
+<h3 id="Chatbot"><a href="#Chatbot" class="headerlink" title="Chatbot :"></a>Chatbot :</h3><p>We also developed a chat bot which you can talk to via our <a href="https://www.facebook.com/nyblenews" target="_blank" rel="external">facebook page</a></p>
+<p><img src="https://media.giphy.com/media/3o6vY5kDCWLJgIVc0o/giphy.gif" alt="Chat Bot"></p>
+<h3 id="Articles"><a href="#Articles" class="headerlink" title="Articles"></a>Articles</h3><ul>
+<li>We plan to release an article within three days </li>
+<li>We would send a newsletter to everyone subscribed in every 15 or 30 days.</li>
+</ul>
+<h3 id="Future-Plans"><a href="#Future-Plans" class="headerlink" title="Future Plans"></a>Future Plans</h3><ul>
+<li>Mobile App to be developed using react native, Probable date of release October 2017.</li>
+<li>Better integration of WebApp and Chatbot.</li>
+</ul>
+<p>Visit Nyble at <a href="http://nybles.tech/" target="_blank" rel="external">nybles.tech</a><br><a href="https://nybles.github.io/team/" target="_blank" rel="external">Team</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Taking small bytes out of information.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Events and activities" scheme="http://gauthamzz.github.io/categories/Events-and-activities/"/>
+    
+    
+      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
+    
+      <category term="Tech Newsletter" scheme="http://gauthamzz.github.io/tags/Tech-Newsletter/"/>
+    
+      <category term="nybles" scheme="http://gauthamzz.github.io/tags/nybles/"/>
+    
+  </entry>
+  
+  <entry>
     <title>HackInTheNorth2.0</title>
     <link href="http://gauthamzz.github.io/2017/03/28/HackInTheNorth2-0/"/>
     <id>http://gauthamzz.github.io/2017/03/28/HackInTheNorth2-0/</id>
     <published>2017-03-28T08:11:10.000Z</published>
-    <updated>2017-06-30T11:54:27.106Z</updated>
+    <updated>2017-09-04T08:52:48.524Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
 <p>This years Hack In the North had around 300 participants to become india’s biggest student held Hackathon, With participants coming from all over india to make the event a grand sucess.</p>
@@ -72,7 +131,7 @@
     <link href="http://gauthamzz.github.io/2017/02/23/opencode/"/>
     <id>http://gauthamzz.github.io/2017/02/23/opencode/</id>
     <published>2017-02-23T16:42:15.000Z</published>
-    <updated>2017-03-11T08:18:12.359Z</updated>
+    <updated>2017-09-21T23:47:42.000Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt--></p>
 <div class="figure " style="width:;"><img class="fig-img" src="https://raw.githubusercontent.com/fossiiita/opencode/master/Logo.png" alt=""></div>
@@ -86,8 +145,6 @@
 <p>Opencode Collabrative website</p>
 <p>This is was our main project, to participate in the event a user had to send a pull request adding his name in this website (Made using jeykll). Thanks to github for making the amazing jeykll project.</p>
 <p>At the beginning the the website only had students and participants sections. </p>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f18db77ec2.png" alt="website after one week"><span class="caption">website after one week</span></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f18d901914.png" alt="At the end of the event"><span class="caption">At the end of the event</span></div>
 <p>New features :</p>
 <ul>
 <li>Card flip to show details.</li>
@@ -100,16 +157,13 @@
 <li>Chat box inside the website (gitter) , Countdown for the event and event scoreboard to view each persons commits.</li>
 </ul>
 <p>The event had a total of 66 participants out of which 63 where from IIIT- Allahabad.</p>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f1b9ad0ab9.png" alt="Repo at the end"><span class="caption">Repo at the end</span></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f18d806f25.png" alt="Pulse from jan 20"><span class="caption">Pulse from jan 20</span></div>
 <h2 id="Humbefoolcup"><a href="#Humbefoolcup" class="headerlink" title="Humbefoolcup"></a><a href="https://fossiiita.github.io/humblefoolcup/" target="_blank" rel="external">Humbefoolcup</a></h2><p>Humbefoolcup was an event page which we made using materilizecss.<br>It started of with a simple materilizecss template. In the end we made :</p>
 <ul>
 <li>A compelete event page </li>
 <li>A <a href="https://fossiiita.github.io/humblefoolcup/humblefool/humblefool.html" target="_blank" rel="external">tribute page</a>, stats page and team page.</li>
 </ul>
 <p>All the contributions was from the participants i only managed the page with the help of Diwakar. </p>
-<h2 id="Other-projects"><a href="#Other-projects" class="headerlink" title="Other projects"></a>Other projects</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f18d57df74.png" alt=""></div>
-<p>Other projects can be viewed at the projects section at opencodecollab website .</p>
+<h2 id="Other-projects"><a href="#Other-projects" class="headerlink" title="Other projects"></a>Other projects</h2><p>Other projects can be viewed at the projects section at opencodecollab website .</p>
 <p>To increase the Participants we also conducted workshops on Git | Github and Android game Dev during the event.</p>
 <h1 id="Conslusion"><a href="#Conslusion" class="headerlink" title="Conslusion"></a>Conslusion</h1><p>In the beginning, the event attracted only few participants. But the number increased gradually, and as the event came to an end, we reached 66 participants with most of them from IIIT Allahabad. Together we created amazing things.</p>
 <p>As compared to normal GCI which has around 100-150 participants we need a lot more participants to call it a huge succes , but for the first time this was considered to be fair. As our number of mentors, publicity and prize money was limited.</p>
@@ -122,15 +176,11 @@
 </ul>
 <p>But overall it was one of the best one months i had in my B-Tech mentoring other students.Its all becasue of the Opencode team ,small but amazing for making it a success.</p>
 <p>Thank you for reading :) </p>
-<h1 id="Gallery"><a href="#Gallery" class="headerlink" title="Gallery"></a>Gallery</h1><div class="figure " style="width:;"><img class="fig-img" src="https://raw.githubusercontent.com/fossiiita/opencode/master/Coming%20Soon%20Poster_2.jpg" alt=""></div>
-<div class="figure fig -50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f1db31cc63.png" alt="markdown website"><span class="caption">markdown website</span></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f1e13a6152.jpg" alt="event poster"><span class="caption">event poster</span></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f21a273225.png" alt="humblefoolcup website"><span class="caption">humblefoolcup website</span></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/f18d76f447.png" alt="opencodecollab"><span class="caption">opencodecollab</span></div>]]></content>
+<h1 id="Gallery"><a href="#Gallery" class="headerlink" title="Gallery"></a>Gallery</h1><div class="figure " style="width:;"><img class="fig-img" src="https://raw.githubusercontent.com/fossiiita/opencode/master/Coming%20Soon%20Poster_2.jpg" alt=""></div>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;A month long Open-Source event. I was a Mentor/ Coordinator , with 6 different Projects.&lt;br&gt;
+      &lt;p&gt;A month long Open-Source event which i founded.&lt;br&gt;
     
     </summary>
     
@@ -150,71 +200,15 @@
   </entry>
   
   <entry>
-    <title>IndianLawyerBot</title>
-    <link href="http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/"/>
-    <id>http://gauthamzz.github.io/2016/11/23/IndianLawyerBot/</id>
-    <published>2016-11-23T02:25:38.000Z</published>
-    <updated>2017-01-15T20:11:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>A chatbot i have made which acts as a Legal Expert in India.</p>
-<a id="more"></a>
-<p>All gifs are of facebook messenger.</p>
-<h2 id="What-happens-when-you-say-hi"><a href="#What-happens-when-you-say-hi" class="headerlink" title="What happens when you say hi"></a>What happens when you say hi</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febc43296.gif" alt=""></div>
-<ul>
-<li>The bot presently recognizes sections related to verbal and physical abuses.</li>
-<li>Lets see how it reacts.</li>
-<li>I have added quick replies as well as text response for ease of use.</li>
-</ul>
-<h2 id="When-you-click-physical-gestures"><a href="#When-you-click-physical-gestures" class="headerlink" title="When you click physical gestures"></a>When you click physical gestures</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febd74dfb.gif" alt=""></div>
-<p>All the cases of which bot travels is not seen in this blog as i try to show only one of a type. Sections change according to the decision made on</p>
-<ul>
-<li>what is the cause  </li>
-<li>weapon</li>
-<li>how deep is the hurt</li>
-<li>other factors in special cases</li>
-</ul>
-<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febde3365.gif" alt=""></div>
-<h2 id="When-you-want-to-know-about-crimes-related-to-verbal-gestures"><a href="#When-you-want-to-know-about-crimes-related-to-verbal-gestures" class="headerlink" title="When you want to know about crimes related to verbal gestures"></a>When you want to know about crimes related to verbal gestures</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febea4cf0.gif" alt=""></div>
-<h2 id="When-you-want-to-know-what-happens-next"><a href="#When-you-want-to-know-what-happens-next" class="headerlink" title="When you want to know what happens next"></a>When you want to know what happens next</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febf26a81.gif" alt=""></div>
-<p>Now time for some fun with the bot</p>
-<h2 id="Adding-small-talk"><a href="#Adding-small-talk" class="headerlink" title="Adding small talk"></a>Adding small talk</h2><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/4febf960b7.gif" alt=""></div>
-<h2 id="Wanna-Try-it-out"><a href="#Wanna-Try-it-out" class="headerlink" title="Wanna Try it out"></a>Wanna Try it out</h2><h2 id="Telegram"><a href="#Telegram" class="headerlink" title="Telegram"></a>Telegram</h2><p>But you can talk to the bot in Telegram under @IndianLawyerBot</p>
-<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/502b303b56.png" alt=""></div>
-<h2 id="Facebook-messenger"><a href="#Facebook-messenger" class="headerlink" title="Facebook messenger"></a>Facebook messenger</h2><p>The bot messenger in not avaliable for public in facebook yet as we need to make the privacy policy. But if you contact me i can let you in a sneek peek. When avalible you can access it through the <a href="https://www.facebook.com/indainlawyerbot/" target="_blank" rel="external">facebook page</a>.</p>
-<h2 id="Slack-bot"><a href="#Slack-bot" class="headerlink" title="Slack bot"></a>Slack bot</h2><p>Need some more procedures to be done before it becomes public.</p>
-<p>Credits :<br>Amrit Daimary and Ankit Pettkar for helping me with this project.<br>Adv. K M Santhoshkumar for being out feild expert while making this bot.</p>
-<h1 id="Thank-you-for-reading-and-have-a-nice-day"><a href="#Thank-you-for-reading-and-have-a-nice-day" class="headerlink" title="Thank you for reading and have a nice day :)"></a>Thank you for reading and have a nice day :)</h1>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;A chatbot i have made which acts as a Legal Expert in India.&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Projects" scheme="http://gauthamzz.github.io/categories/Projects/"/>
-    
-    
-      <category term="Chatbot" scheme="http://gauthamzz.github.io/tags/Chatbot/"/>
-    
-      <category term="Expert System" scheme="http://gauthamzz.github.io/tags/Expert-System/"/>
-    
-      <category term="IndianLawyerBot" scheme="http://gauthamzz.github.io/tags/IndianLawyerBot/"/>
-    
-      <category term="messenger bot" scheme="http://gauthamzz.github.io/tags/messenger-bot/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Trip2Rishikesh</title>
-    <link href="http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/Trip2Rishikesh/"/>
-    <id>http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/Trip2Rishikesh/</id>
+    <link href="http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/"/>
+    <id>http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/</id>
     <published>2016-11-03T21:11:48.000Z</published>
-    <updated>2017-09-04T08:52:48.544Z</updated>
+    <updated>2017-09-21T23:33:56.235Z</updated>
     
     <content type="html"><![CDATA[<p>I went to Rishikesh from October 30 to November 3, 2016.</p>
 <p>Rishikesh known as “the valley of saints” is an amazing place for both adventurers as well as people in search of Spiritual calling.This Blog post is about the former.</p>
 <a id="more"></a>
-<p>All the pics in this blog are taken by low clarity phones camera,So please bare through.</p>
 <h1 id="Table-of-Contents"><a href="#Table-of-Contents" class="headerlink" title="Table of Contents"></a>Table of Contents</h1><hr>
 <ul>
 <li><a href="#How to Reach?">How to reach ?</a></li>
@@ -225,59 +219,14 @@
 <li><a href="#Others">Others</a></li>
 </ul>
 <h2 id="The-Trip"><a href="#The-Trip" class="headerlink" title="The Trip"></a>The Trip</h2><h2 id="How-to-Reach"><a href="#How-to-Reach" class="headerlink" title="How to Reach?"></a>How to Reach?</h2><p>To reach Rishikesh you have to first reach Haridwar or Dehradun. We reached Haridwar by train after realizing there is nothing much to do there we took a bus to Rishikesh. Which took almost 1.25 hours and is available 24 * 7 . You can also get Taxi’s or Auto’s.</p>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb0cd09fa2.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb0cd81116.jpg" alt=""></div>
-<h2 id="Camping"><a href="#Camping" class="headerlink" title="Camping"></a>Camping</h2><p>After reaching we took a river side camp in Shivpuri near Rishikesh for the nights stay. The package included food,camping and free rafting on the next day.Food was great and nothing can ever match the ambiance of the atmosphere though. The Bon fire with with the cold winds from the Himalayas are something worth experiencing.<br><div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb789f1eaf.jpg" alt=""></div></p>
-<div class="figure fig-33" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb78946c72.jpg" alt=""></div>
-<div class="figure fig-33" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb78b9eb18.jpg" alt=""></div>
-<div class="figure fig-33" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bb78c36119.jpg" alt=""></div>
+<h2 id="Camping"><a href="#Camping" class="headerlink" title="Camping"></a>Camping</h2><p>After reaching we took a river side camp in Shivpuri near Rishikesh for the nights stay. The package included food,camping and free rafting on the next day.Food was great and nothing can ever match the ambiance of the atmosphere though. The Bon fire with with the cold winds from the Himalayas are something worth experiencing.</p>
 <p>We had to wake up early in the morning to go for river rafting.</p>
 <h2 id="Rafting"><a href="#Rafting" class="headerlink" title="Rafting"></a>Rafting</h2><p>River <a href="https://en.wikipedia.org/wiki/Rafting" target="_blank" rel="external">Rafting</a> is one of the cheapest and most amazing things to do in Rishikesh.<br>We did a 18 km rafting which included few grade 3 and grade 4 Rapids. Being at the front of the raft i had an interesting journey.<br>During rafting they allow us to jump into River Ganges and do body floating(with their life jackets on). Which is basically the only time non swimmers can actually experience the beauty of the sport without putting in any effort(P.S i can swim). We stopped half way during the ride for a Tea break where people could do Cliff jumping , which is basically people jumping from a rock into the water. After which we rowed to the end point and finished our ride.</p>
-<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbb55cae8b.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbb55eae9e.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbb565f71c.jpg" alt=""></div>
-<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbb773d31a.jpg" alt=""></div>
 <h2 id="Bungee"><a href="#Bungee" class="headerlink" title="Bungee"></a>Bungee</h2><p>The main purpose of this trip was to do Bungee Jumping at <a href="http://www.jumpinheights.com/" target="_blank" rel="external">Jumpin heights</a> which is an 83 meters long India’s highest jump with jump masters from New Zealand .<br>It costs around Rs 3600 for a jump which is same everywhere , so you dont have to roam around finding people to bargain with. It is of top quality and is worth every single penny of it. The Jumping place is around 20 km away from Rishikesh which rented a bike for the travel.</p>
 <p>After the jump we have to do a small trek up the mountain we just jumped . The place also has Flying Fox and Giant Swing.</p>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbee574d1e.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/bbee7bdbaa.jpg" alt=""></div>
-<h2 id="BeatlesAshram"><a href="#BeatlesAshram" class="headerlink" title="BeatlesAshram"></a>BeatlesAshram</h2><p>Beatles Ashram is the place where the infamous Beatles stayed when they came to India. This is place is full of Graffiti and paintings which will make the artist within you fall in love.<br>These are some of the pics i took over there.</p>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2bf53068c.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2bfc4e9b6.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2bf21115a.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2be56f3dc.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2be38216b.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2c9c6ccf2.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2ca30ccf5.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2ca9d961f.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2d90c8e13.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2d927fab4.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2d939a7e2.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2d96cb424.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2e69799af.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2e6a48df3.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2e6d0200d.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2e6b64401.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2eee338d2.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2f01d1328.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2efa1eb13.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2eda54d82.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2f00e5bc9.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2f028cc97.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2ec1ea3cd.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2ec5c781b.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c309974705.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c2ee56b4cc.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c3096028b1.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c309729a11.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c30986af67.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c310fecc1d.jpg" alt=""></div>
+<h2 id="BeatlesAshram"><a href="#BeatlesAshram" class="headerlink" title="BeatlesAshram"></a>BeatlesAshram</h2><p>Beatles Ashram is the place where the infamous Beatles stayed when they came to India. This is place is full of Graffiti and paintings which will make the artist within you fall in love.</p>
 <p>Well that was a lot wasn’t it. There are more but i got tired of clicking pics. There are small caves and very old ashrams there also.</p>
-<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><p>These are some pictures i took while on traveling on the bike we rented out in the place.</p>
-<div class="figure " style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c32fea79bf.jpg" alt="Ganges is so beautiful out here"><span class="caption">Ganges is so beautiful out here</span></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c32f319d69.jpg" alt=""></div>
-<div class="figure fig-50" style="width:;"><img class="fig-img" src="http://i.imgsafe.org/c334b1db0a.jpg" alt=""></div>
-<p>There are many more interesting places like Ram Jhula, Lakshman Jhula , Triveni Ghat and many temples in Rishikesh too.But this post wont cover them.</p>
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><p>There are many more interesting places like Ram Jhula, Lakshman Jhula , Triveni Ghat and many temples in Rishikesh too.But this post wont cover them.</p>
 <p>Thank you for reading and i hope one day you will also visit there and try out everything.</p>
 ]]></content>
     
@@ -310,7 +259,7 @@
     <link href="http://gauthamzz.github.io/2016/10/18/stegolica/"/>
     <id>http://gauthamzz.github.io/2016/10/18/stegolica/</id>
     <published>2016-10-18T08:27:54.000Z</published>
-    <updated>2017-09-21T23:29:57.867Z</updated>
+    <updated>2017-09-21T23:38:51.559Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://stegolica/effe.org.in/website/" target="_blank" rel="external">Stegolica</a> was held as part of <a href="http://effe.org.in" target="_blank" rel="external">Effervesence</a> 2016 of IIIT Allahabad.</p>
 <p>Steganography is the practice of concealing messages or information within other non-secret text or data.</p>
@@ -406,6 +355,7 @@
 <p>The soundtrack is 528491 from the movie inception.</p>
 <p>If you change the extension of the audio to zip from mp3 you will get this text file containing.</p>
 <p>When you take the 5th 2nd 8th 4th 9th and 1st word of quotes in order you will get.<br>“i’m the king of the world” from the movie titanic</p>
+<h1 id="I-need-better-hints"><a href="#I-need-better-hints" class="headerlink" title="I need better hints"></a>I need better hints</h1><p>If you still need hints, i hid some images in my gauthamzz.github.io repo, search for it. </p>
 <h1 id="Thank-you-for-reading"><a href="#Thank-you-for-reading" class="headerlink" title="Thank you for reading"></a>Thank you for reading</h1><p>The source code to the website can be found at <a href="https://github.com/gauthamzz/stegolica" target="_blank" rel="external">Stegolica Repo</a> in my github account.</p>
 <p>The webapp was developed using Django and hosted in openshift.</p>
 ]]></content>
@@ -484,7 +434,7 @@
     <link href="http://gauthamzz.github.io/2016/09/06/GeekhavenMentorship/"/>
     <id>http://gauthamzz.github.io/2016/09/06/GeekhavenMentorship/</id>
     <published>2016-09-05T20:19:18.000Z</published>
-    <updated>2017-02-28T11:24:46.000Z</updated>
+    <updated>2017-09-04T08:52:48.512Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt -->
 <h2 id="Task-3-0"><a href="#Task-3-0" class="headerlink" title="Task 3.0"></a>Task 3.0</h2><ol>

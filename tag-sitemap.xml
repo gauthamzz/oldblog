@@ -2,120 +2,22 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://gauthamzz.github.io/tags/Chatbot/</loc>
-        <lastmod>2017-01-15T20:11:06.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/Expert-System/</loc>
-        <lastmod>2017-01-15T20:11:06.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/IndianLawyerBot/</loc>
-        <lastmod>2017-01-15T20:11:06.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/messenger-bot/</loc>
-        <lastmod>2017-01-15T20:11:06.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://gauthamzz.github.io/tags/Geekhaven-IIIT-A-College/</loc>
-        <lastmod>2017-02-28T11:24:46.000Z</lastmod>
+        <lastmod>2017-09-04T08:52:48.512Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://gauthamzz.github.io/tags/Geekhaven-Technical-Society/</loc>
-        <lastmod>2017-02-28T11:24:46.000Z</lastmod>
+        <lastmod>2017-09-04T08:52:48.512Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://gauthamzz.github.io/tags/College/</loc>
-        <lastmod>2017-02-28T11:24:46.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/Geekhaven/</loc>
-        <lastmod>2017-03-11T08:18:12.359Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/opencode/</loc>
-        <lastmod>2017-03-11T08:18:12.359Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/Open-source/</loc>
-        <lastmod>2017-03-11T08:18:12.359Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/Event/</loc>
-        <lastmod>2017-03-11T08:18:12.359Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/Travel/</loc>
-        <lastmod>2017-09-04T08:52:48.544Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/Adventure/</loc>
-        <lastmod>2017-09-04T08:52:48.544Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/Bungee-Jumping/</loc>
-        <lastmod>2017-09-04T08:52:48.544Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/Rafting/</loc>
-        <lastmod>2017-09-04T08:52:48.544Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/Bike-Rentals/</loc>
-        <lastmod>2017-09-04T08:52:48.544Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/tags/Beatles-Ashram/</loc>
-        <lastmod>2017-09-04T08:52:48.544Z</lastmod>
+        <lastmod>2017-09-04T08:52:48.512Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -135,13 +37,6 @@
     </url>
 
     <url>
-        <loc>http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/</loc>
-        <lastmod>2017-09-21T23:14:30.259Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://gauthamzz.github.io/tags/IIITA-Hacks/</loc>
         <lastmod>2017-09-21T23:14:30.259Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -149,36 +44,127 @@
     </url>
 
     <url>
-        <loc>http://gauthamzz.github.io/tags/IIIT-A/</loc>
-        <lastmod>2017-09-21T23:29:57.867Z</lastmod>
+        <loc>http://gauthamzz.github.io/tags/Travel/</loc>
+        <lastmod>2017-09-21T23:33:56.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Adventure/</loc>
+        <lastmod>2017-09-21T23:33:56.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Bungee-Jumping/</loc>
+        <lastmod>2017-09-21T23:33:56.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Rafting/</loc>
+        <lastmod>2017-09-21T23:33:56.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Bike-Rentals/</loc>
+        <lastmod>2017-09-21T23:33:56.235Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Beatles-Ashram/</loc>
+        <lastmod>2017-09-21T23:33:56.235Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://gauthamzz.github.io/tags/Effervesence-2016/</loc>
-        <lastmod>2017-09-21T23:29:57.867Z</lastmod>
+        <lastmod>2017-09-21T23:38:51.559Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://gauthamzz.github.io/tags/Online-Event/</loc>
-        <lastmod>2017-09-21T23:29:57.867Z</lastmod>
+        <lastmod>2017-09-21T23:38:51.559Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://gauthamzz.github.io/tags/Steganography/</loc>
-        <lastmod>2017-09-21T23:29:57.867Z</lastmod>
+        <lastmod>2017-09-21T23:38:51.559Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://gauthamzz.github.io/tags/Hidden-messages/</loc>
-        <lastmod>2017-09-21T23:29:57.867Z</lastmod>
+        <lastmod>2017-09-21T23:38:51.559Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/IIIT-A/</loc>
+        <lastmod>2017-09-21T23:47:42.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Geekhaven/</loc>
+        <lastmod>2017-09-21T23:47:42.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/opencode/</loc>
+        <lastmod>2017-09-21T23:47:42.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Open-source/</loc>
+        <lastmod>2017-09-21T23:47:42.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Event/</loc>
+        <lastmod>2017-09-21T23:47:42.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/</loc>
+        <lastmod>2017-09-22T00:00:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/Tech-Newsletter/</loc>
+        <lastmod>2017-09-22T00:00:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/tags/nybles/</loc>
+        <lastmod>2017-09-22T00:00:45.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
