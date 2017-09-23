@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gauthamzz.github.io/"/>
-  <updated>2017-09-22T23:08:44.715Z</updated>
+  <updated>2017-09-23T08:52:58.383Z</updated>
   <id>http://gauthamzz.github.io/</id>
   
   <author>
@@ -20,12 +20,12 @@
     <link href="http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/"/>
     <id>http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/</id>
     <published>2017-09-22T21:59:38.000Z</published>
-    <updated>2017-09-22T23:08:44.715Z</updated>
+    <updated>2017-09-23T08:52:58.383Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt --></p>
 <p>Technically CycleGAN gives you epic results <a href="https://junyanz.github.io/CycleGAN/" target="_blank" rel="external">like</a></p>
  <div class="figure " style="width:;"><img class="fig-img" src="https://github.com/junyanz/CycleGAN/raw/master/imgs/horse2zebra.gif" alt=""></div>
-<p>The code written so bad that it gave images like these.</p>
+<p>The code written so bad that it gave images like these. So these are our image outputs : -</p>
 <div class="figure fig-50" style="width:;"><img class="fig-img" src="image11.png" alt=""></div><div class="figure fig-50" style="width:;"><img class="fig-img" src="image8.gif" alt=""></div><div class="figure fig-50" style="width:;"><img class="fig-img" src="image9.gif" alt=""></div>
 <p>Well not all were bad, but some are pretty awful.</p>
 <p>So to put use of my slow laptop, i decided to apply the idea in another domain. Apply on sounds.</p>
@@ -36,7 +36,7 @@
 <p>If you wanna know more read the paper. In short it has a cyclic loss with the Adversarial loss.</p>
 <h1 id="Our-Tweak"><a href="#Our-Tweak" class="headerlink" title="Our Tweak"></a>Our Tweak</h1><p>Lets convert audio to image and apply the same thing. </p>
 <div class="figure " style="width:;"><img class="fig-img" src="image15.png" alt=""></div>
-<p>So i did it on greyscale. Yes im too impatient to wait for an RGB to train to see if a hypothesis works.</p>
+<p>So i did it on greyscale. We didnt use RGB to train to see if a hypothesis works.</p>
 <p>So we took 20 second audio and converted to Greysacle image and applied CycleGAN.</p>
 <p>We got this.</p>
 <div class="figure " style="width:;"><img class="fig-img" src="image16.png" alt=""></div>
@@ -45,33 +45,38 @@
 <h1 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h1><p>Style 1 </p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343612064&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-<p>Style 2 applied on Style 1<br><!-- <audio src="media3.wav" controls preload></audio> --></p>
+<p>Style 2 applied on Style 1</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343611244&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe><br>Style 2<br><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343612117&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 <p>Style 1 applied on Style 2</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343611995&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
 <p>Yesh the second one sounds fine and fourth one ripped your ear off.</p>
-<p>I was too lazy to convert and see it works all the time.</p>
 <p>Well it gets good at some point of training then it starts producing results which will rip your ear off again.</p>
 <p>Yaay good news,its works. </p>
 <p>If you make a better network it will give you better results and maybe apply some noise filter.<br>Ah! ill do that another day. </p>
+<h2 id="Some-Future-Tweaks"><a href="#Some-Future-Tweaks" class="headerlink" title="Some Future Tweaks"></a>Some Future Tweaks</h2><ul>
+<li>InputAudio -&gt; Tweaked CycleGAN -&gt; OutputAudio (Well its almost same), using librosa for audio input.</li>
+<li>Use RGB instead of GreyScale.</li>
+<li>Apply on DiscoGAN and compare results. </li>
+</ul>
 <p>Now look at this epic tiget to panther conversion. </p>
 <div class="figure " style="width:;"><img class="fig-img" src="image3.gif" alt=""></div><div class="figure " style="width:;"><img class="fig-img" src="image2.gif" alt=""></div>
-<p>If you have some intersting ideas comment below. Lets try some stuff.</p>]]></content>
+<p>I couldn’t find a good bechmark, if you have an idea of one. Please comment below.<br>If you have some intersting ideas comment below. Lets try some stuff.</p>
+<p>I would like to thanks Ankit Petkar and Amrit Daimary for their valuable contrubtions.<br>Thanks you for Reading.  </p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;So on a bright day playing with &lt;a href=&quot;https://github.com/junyanz/CycleGAN&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CycleGan&lt;/a&gt; a bit for audio style transfer.&lt;br&gt;
+      &lt;p&gt;So on a bright day playing with &lt;a href=&quot;https://github.com/junyanz/CycleGAN&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;CycleGan&lt;/a&gt; a bit, for audio style transfer.&lt;br&gt;
     
     </summary>
     
       <category term="Experiments" scheme="http://gauthamzz.github.io/categories/Experiments/"/>
     
     
-      <category term="Audio Style Transfer" scheme="http://gauthamzz.github.io/tags/Audio-Style-Transfer/"/>
-    
       <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
+    
+      <category term="Audio Style Transfer" scheme="http://gauthamzz.github.io/tags/Audio-Style-Transfer/"/>
     
       <category term="CycleGAN" scheme="http://gauthamzz.github.io/tags/CycleGAN/"/>
     
@@ -185,9 +190,9 @@
       <category term="Events and activities" scheme="http://gauthamzz.github.io/categories/Events-and-activities/"/>
     
     
-      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
-    
       <category term="Hackathon" scheme="http://gauthamzz.github.io/tags/Hackathon/"/>
+    
+      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
     
       <category term="Hack In the North" scheme="http://gauthamzz.github.io/tags/Hack-In-the-North/"/>
     
@@ -488,9 +493,9 @@
       <category term="Events and activities" scheme="http://gauthamzz.github.io/categories/Events-and-activities/"/>
     
     
-      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
-    
       <category term="Hackathon" scheme="http://gauthamzz.github.io/tags/Hackathon/"/>
+    
+      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
     
       <category term="IIITA Hacks" scheme="http://gauthamzz.github.io/tags/IIITA-Hacks/"/>
     
@@ -596,9 +601,9 @@
       <category term="Events and activities" scheme="http://gauthamzz.github.io/categories/Events-and-activities/"/>
     
     
-      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
-    
       <category term="Hackathon" scheme="http://gauthamzz.github.io/tags/Hackathon/"/>
+    
+      <category term="Indian Institute of Information Technology,Allahabad" scheme="http://gauthamzz.github.io/tags/Indian-Institute-of-Information-Technology-Allahabad/"/>
     
       <category term="Hack In the North" scheme="http://gauthamzz.github.io/tags/Hack-In-the-North/"/>
     
