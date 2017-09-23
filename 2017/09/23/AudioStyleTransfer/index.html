@@ -15,12 +15,12 @@
     
         <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="So on a bright day playing with CycleGan a bit, for audio style transfer.">
+    <meta name="description" content="Applying CycleGanfor Audio texture synthesis and Style Transfer.">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="AudioStyleTransfer">
 <meta property="og:url" content="http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/index.html">
 <meta property="og:site_name" content="Gauthams Blog">
-<meta property="og:description" content="So on a bright day playing with CycleGan a bit, for audio style transfer.">
+<meta property="og:description" content="Applying CycleGanfor Audio texture synthesis and Style Transfer.">
 <meta property="og:image" content="https://github.com/junyanz/CycleGAN/raw/master/imgs/horse2zebra.gif">
 <meta property="og:image" content="http://gauthamzz.github.io/image11.png">
 <meta property="og:image" content="http://gauthamzz.github.io/image8.gif">
@@ -30,10 +30,10 @@
 <meta property="og:image" content="http://gauthamzz.github.io/image16.png">
 <meta property="og:image" content="http://gauthamzz.github.io/image3.gif">
 <meta property="og:image" content="http://gauthamzz.github.io/image2.gif">
-<meta property="og:updated_time" content="2017-09-23T08:55:44.127Z">
+<meta property="og:updated_time" content="2017-09-23T14:41:55.551Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="AudioStyleTransfer">
-<meta name="twitter:description" content="So on a bright day playing with CycleGan a bit, for audio style transfer.">
+<meta name="twitter:description" content="Applying CycleGanfor Audio texture synthesis and Style Transfer.">
 <meta name="twitter:image" content="https://github.com/junyanz/CycleGAN/raw/master/imgs/horse2zebra.gif">
     
     
@@ -235,40 +235,55 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <!--excerpt --></p>
-<p>Applying CycleGAN for Audio texture synthesis and Style Transfer. </p>
-<p>Technically CycleGAN gives you epic results <a href="https://junyanz.github.io/CycleGAN/" target="_blank" rel="external">like</a></p>
+            <!--excerpt -->
+<p>Applying <a href="https://github.com/junyanz/CycleGAN" target="_blank" rel="external">CycleGan</a>for Audio texture synthesis and Style Transfer. </p>
+<p>Normally CycleGAN gives you epic results <a href="https://junyanz.github.io/CycleGAN/" target="_blank" rel="external">like</a> the one below</p>
  <div class="figure " style="width:;"><img class="fig-img" src="https://github.com/junyanz/CycleGAN/raw/master/imgs/horse2zebra.gif" alt=""></div>
-<p>The code written so bad that it gave images like these. So these are our image outputs : -</p>
+<p>So we liked the idea of replacing an object in an image by another. </p>
+<p>So these are our image outputs : -</p>
 <div class="figure fig-50" style="width:;"><img class="fig-img" src="image11.png" alt=""></div><div class="figure fig-50" style="width:;"><img class="fig-img" src="image8.gif" alt=""></div><div class="figure fig-50" style="width:;"><img class="fig-img" src="image9.gif" alt=""></div>
-<p>Well not all were bad, but some are pretty awful.</p>
-<p>So to put use of my slow laptop, i decided to apply the idea in another domain. Apply on sounds.</p>
+<p>Apple to Oranges and vice versa.</p>
+<p>Well not all were bad, but some were pretty awful.</p>
+<p>So we decided to apply this idea in another domain. AUDIO.</p>
 <p>Wait wait….</p>
 <p>Lets look at cycleGan first<br><div class="figure " style="width:;"><img class="fig-img" src="image6.png" alt=""></div></p>
-<p>Basic idea is you have image of one style ,you copy that style to another(Yeah like the Prisma APP which was so viral and you dowanloaded it then and you forgot to delete it. Now its just wasting space in your mobile device).</p>
-<p>Cool thing is you only need unpaired image samples. So google some stuff copy some images and you have a dataset. </p>
-<p>If you wanna know more read the paper. In short it has a cyclic loss with the Adversarial loss.</p>
-<h1 id="Our-Tweak"><a href="#Our-Tweak" class="headerlink" title="Our Tweak"></a>Our Tweak</h1><p>Lets convert audio to image and apply the same thing. </p>
+<p>Basic idea is you have image of one style ,you copy that style to another.</p>
+<p>(Yeah like the Prisma App which was viral some time ago).</p>
+<p>Cool thing is you only need unpaired image samples. </p>
+<p>So google with a simple google search you can make your own Dataset.</p>
+<p>If you wanna know more read the paper. In short it has a Cyclic loss with the Adversarial loss with Two Generators and Two Discriminators.</p>
+<h1 id="Tweak"><a href="#Tweak" class="headerlink" title="Tweak"></a>Tweak</h1><p>Lets convert audio to image and apply the same thing. </p>
+<p>We first chose midi file, But the results were not that great.<br>So instead we used Spectrogram. </p>
 <div class="figure " style="width:;"><img class="fig-img" src="image15.png" alt=""></div>
-<p>So i did it on greyscale. We didnt use RGB to train to see if a hypothesis works.</p>
-<p>So we took 20 second audio and converted to Greysacle image and applied CycleGAN.</p>
+<p>So we convert audio to greyscale Spectrogram Image. And two sets of these images were used as the datasample.</p>
+<p>Steps</p>
+<ul>
+<li>Take two 20 second audio sample.</li>
+<li>Slice them upto into 4 images of 5 seconds each (512px x 512px)</li>
+<li>Apply to model</li>
+<li>Use the outputs and restore it back.</li>
+</ul>
 <p>We got this.</p>
 <div class="figure " style="width:;"><img class="fig-img" src="image16.png" alt=""></div>
 <p>a) Style 1<br>b) Style 2 applied on Style 1<br>c) Style 2<br>d) Style 1 applied on Style 2</p>
-<p>Turns out the unpaired image thing is pretty sweet.</p>
-<h1 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h1><p>Style 1 </p>
+<h1 id="Results"><a href="#Results" class="headerlink" title="Results"></a>Results</h1><h2 id="Inputs"><a href="#Inputs" class="headerlink" title="Inputs"></a>Inputs</h2><p>Style 1 </p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343612064&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-<p>Style 2 applied on Style 1</p>
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343611244&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe><br>Style 2<br><iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343612117&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+<p>Style 2</p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343612117&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+<h3 id="Outputs"><a href="#Outputs" class="headerlink" title="Outputs"></a>Outputs</h3><p>Style 2 applied on Style 1</p>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343611244&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
 
 <p>Style 1 applied on Style 2</p>
 <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/343611995&amp;color=%23ff9900&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-<p>Yesh the second one sounds fine and fourth one ripped your ear off.</p>
-<p>Well it gets good at some point of training then it starts producing results which will rip your ear off again.</p>
-<p>Yaay good news,its works. </p>
-<p>If you make a better network it will give you better results and maybe apply some noise filter.<br>Ah! ill do that another day. </p>
+
+
+<p>Well it gets good at some point of training then it starts producing results which will rip your ear off again.So this is around the place where it is at its optimum. </p>
+<p>Good news is its works. </p>
+<p>If you make a better network it will give you better results and maybe apply some noise filter. </p>
 <h2 id="Some-Future-Tweaks"><a href="#Some-Future-Tweaks" class="headerlink" title="Some Future Tweaks"></a>Some Future Tweaks</h2><ul>
 <li>InputAudio -&gt; Tweaked CycleGAN -&gt; OutputAudio (Well its almost same), using librosa for audio input.</li>
 <li>Use RGB instead of GreyScale.</li>
