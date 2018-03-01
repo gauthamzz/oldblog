@@ -1,0 +1,502 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Gauthams Blog">
+    <title>Pytorch 101 - Gauthams Blog</title>
+    <meta name="author" content="Gautham Santhosh">
+    
+        <meta name="keywords" content="hexo,javascript,Gautham Santhosh,gauthamzz,gautham,iim2014008,gauthams Blog,gautham santhosh,">
+    
+    
+    
+        <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
+    
+    <meta name="description" content="Torch is a Deep Learning framework which was written in Lua Programming Language. Inspired by this amazing library a couple of python ethusisats wrote PyTorch based on its principles. It’s supported b">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="Pytorch 101">
+<meta property="og:url" content="http://gauthamzz.github.io/2017/10/26/Pytorch-101/index.html">
+<meta property="og:site_name" content="Gauthams Blog">
+<meta property="og:description" content="Torch is a Deep Learning framework which was written in Lua Programming Language. Inspired by this amazing library a couple of python ethusisats wrote PyTorch based on its principles. It’s supported b">
+<meta property="og:image" content="https://media.giphy.com/media/63xcx89n4guTm/giphy.gif">
+<meta property="og:image" content="https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif">
+<meta property="og:image" content="http://pytorch.org/static/img/dynamic_graph.gif">
+<meta property="og:image" content="http://gauthamzz.github.io/single_layer.jpg">
+<meta property="og:image" content="https://media.giphy.com/media/h2MLtoOjxtkGY/giphy.gif">
+<meta property="og:image" content="https://media.giphy.com/media/EZdjrzyK1Kw2A/giphy.gif">
+<meta property="og:image" content="https://media.giphy.com/media/26gsjCZpPolPr3sBy/giphy.gif">
+<meta property="og:updated_time" content="2018-03-01T01:15:38.448Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Pytorch 101">
+<meta name="twitter:description" content="Torch is a Deep Learning framework which was written in Lua Programming Language. Inspired by this amazing library a couple of python ethusisats wrote PyTorch based on its principles. It’s supported b">
+<meta name="twitter:image" content="https://media.giphy.com/media/63xcx89n4guTm/giphy.gif">
+    
+    
+        
+    
+    
+        <meta property="og:image" content="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+    
+    
+    
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/css/style-nuvue6sithwirecbhvw3dkaobiojqvtadsnhguwi7k04xklybw5djl1smadp.min.css">
+    <!--STYLES END-->
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-82762642-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    
+</head>
+
+    <body>
+        <div id="blog">
+            <!-- Define author's picture -->
+
+
+    
+        
+            
+        
+    
+
+<header id="header" data-behavior="3">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="/ ">Gauthams Blog</a>
+    </h1>
+    
+        
+            <a  class="header-right-picture "
+                href="#about">
+        
+        
+            <img class="header-picture" src="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+        
+        </a>
+    
+</header>
+
+            <!-- Define author's picture -->
+
+
+
+        
+    
+
+<nav id="sidebar" data-behavior="3">
+    
+        <div class="sidebar-profile">
+            <a href="/#about">
+                    <img class="sidebar-profile-picture" src="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+            </a>
+            <span class="sidebar-profile-name">Gautham Santhosh</span>
+        </div>
+    
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/ "
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">Home</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/all-categories"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+                    <span class="sidebar-button-desc">Categories</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="#about"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+                    <span class="sidebar-button-desc">About</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://drive.google.com/file/d/0By4wRKJ5_4qJSUFyQ3doanlEQ00/view" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+                    <span class="sidebar-button-desc">Resume</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://github.com/gauthamzz" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://facebook.com/gauthamzz" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-facebook"></i>
+                    <span class="sidebar-button-desc">Facebook</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/atom.xml"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+
+            
+            <div id="main" data-behavior="3"
+                 class="
+                        hasCoverMetaIn
+                        ">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+    
+        <div class="post-header main-content-wrap text-left">
+    
+        <h1 class="post-title" itemprop="headline">
+            Pytorch 101
+        </h1>
+        <p> 3 min. read </p>
+    
+    <div class="post-meta">
+    <time itemprop="datePublished" datetime="2017-10-26T10:20:14+05:30">
+	
+		    Oct 26, 2017
+    	
+    </time>
+    
+</div>
+
+</div>
+    
+    <div class="post-content markdown" itemprop="articleBody">
+        <div class="main-content-wrap">
+            <!--excerpt -->
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/63xcx89n4guTm/giphy.gif" alt=""></div>
+<p>PyTorch was rewritten and tailored to be fast and feel native in Python. PyTorch is not a Python binding into a monolothic C++ framework. </p>
+<h1 id="Benefits"><a href="#Benefits" class="headerlink" title="Benefits"></a>Benefits</h1><h2 id="Impertive-Programming"><a href="#Impertive-Programming" class="headerlink" title="Impertive Programming"></a>Impertive Programming</h2><p>This key feature allows you to change computation as you type it. </p>
+<blockquote>
+<p>Computation is defined runtime</p>
+</blockquote>
+<p>Like most python code,while TensorFlow other framework requires the user to define the model first and then compute it. TensorFlow was made for Engineers while PyTorch was for researchrs.</p>
+<p>Meaning PyTorch is more flexible with the prize of a little drop in efficency.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif" alt=""></div>
+<h2 id="Graphs-are-created-on-the-fly"><a href="#Graphs-are-created-on-the-fly" class="headerlink" title="Graphs are created on the fly"></a>Graphs are created on the fly</h2><p><img src="http://pytorch.org/static/img/dynamic_graph.gif" alt="alt text"></p>
+<p>Since computaion graphs are built at run time they are more efficent for using RNN’s. Which hence makes debugging very easy.</p>
+<h2 id="Basic-example"><a href="#Basic-example" class="headerlink" title="Basic example"></a>Basic example</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">#  1. Basic autograd example 1</div><div class="line"></div><div class="line"># Create tensors.</div><div class="line">a = Variable(torch.Tensor([1,2]), requires_grad=True)</div><div class="line">b = Variable(torch.Tensor([0,2]), requires_grad=True)</div><div class="line"></div><div class="line"># Build a computational graph.</div><div class="line">x = a @ b </div><div class="line"></div><div class="line">print(x)</div></pre></td></tr></table></figure>
+<p>Prints 4 : Taking a dot product of x with w using the new Python 3.5 syntax</p>
+<p>Once you are done, all you need to do is call #backward() on the result. This will calculate the gradients and you will be able to access them for Variables that were created with requires_grad = True.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># Compute gradients.</div><div class="line">x.backward()</div><div class="line"></div><div class="line"># Print out the gradients.</div><div class="line">print(a.grad)</div></pre></td></tr></table></figure>
+<p>Prints 0 2</p>
+<h2 id="Single-Layer-Neural-Network"><a href="#Single-Layer-Neural-Network" class="headerlink" title="Single Layer Neural Network"></a>Single Layer Neural Network</h2><div class="figure " style="width:;"><img class="fig-img" src="single_layer.jpg" alt=""></div>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"># Neural Network Model (1 hidden layer)</div><div class="line">class Net(nn.Module):</div><div class="line">    def __init__(self, input_size, hidden_size, num_classes):</div><div class="line">        super(Net, self).__init__()</div><div class="line">        self.fc1 = nn.Linear(input_size, hidden_size) </div><div class="line">        self.relu = nn.ReLU()</div><div class="line">        self.fc2 = nn.Linear(hidden_size, num_classes)  </div><div class="line">    </div><div class="line">    def forward(self, x):</div><div class="line">        out = self.fc1(x)</div><div class="line">        out = self.relu(out)</div><div class="line">        out = self.fc2(out)</div><div class="line">        return out</div><div class="line">    </div><div class="line">net = Net(input_size, hidden_size, num_classes)</div><div class="line"></div><div class="line">    </div><div class="line"># Loss and Optimizer</div><div class="line">criterion = nn.CrossEntropyLoss()  </div><div class="line">optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)</div></pre></td></tr></table></figure>
+<p>Looks pretty simple right.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/h2MLtoOjxtkGY/giphy.gif" alt=""></div>
+<h1 id="Tensor-Flow-vs-Pytorch"><a href="#Tensor-Flow-vs-Pytorch" class="headerlink" title="Tensor Flow vs Pytorch"></a>Tensor Flow vs Pytorch</h1><div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/EZdjrzyK1Kw2A/giphy.gif" alt=""></div>
+<p>PyTorch is still a young framework which is getting momentum fast. You may find it a good fit if you:</p>
+<ul>
+<li>Do research or your production non-functional requirements are not very demanding</li>
+<li>Want better development and debugging experience</li>
+<li>Love all things Pythonic</li>
+</ul>
+<p>TensorFlow is a good option if you:</p>
+<ul>
+<li>Develop models for production</li>
+<li>Develop models which need to be deployed on mobile platforms</li>
+<li>Want good community support and comprehensive documentation</li>
+<li>Want rich learning resources in various forms (TensorFlow has an an entire MOOC)</li>
+<li>Want or need to use Tensorboard</li>
+<li>Need to use large-scale distributed model training</li>
+</ul>
+<p>But if you are still very new to Deeplearning and would just like to know what it means, keras is the way to go. </p>
+<h1 id="Learn-More"><a href="#Learn-More" class="headerlink" title="Learn More"></a>Learn More</h1><p>If you are a developer and wants to learn pytorch and deeplearning, i suggest this course <a href="http://www.fast.ai/" target="_blank" rel="external">Fast.ai</a></p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/26gsjCZpPolPr3sBy/giphy.gif" alt=""></div>
+            
+        </div>
+    </div>
+    <div id="post-footer" class="post-footer main-content-wrap">
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/09/23/AudioStyleTransfer/" data-tooltip="AudioStyleTransfer">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://gauthamzz.github.io/2017/10/26/Pytorch-101/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://gauthamzz.github.io/2017/10/26/Pytorch-101/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://gauthamzz.github.io/2017/10/26/Pytorch-101/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+        
+            
+                <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+            
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2018 Gautham Santhosh. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="3">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2017/09/23/AudioStyleTransfer/" data-tooltip="AudioStyleTransfer">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://gauthamzz.github.io/2017/10/26/Pytorch-101/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://gauthamzz.github.io/2017/10/26/Pytorch-101/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://gauthamzz.github.io/2017/10/26/Pytorch-101/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+                </div>
+                <div id="share-options-bar" class="share-options-bar" data-behavior="3">
+    <ul class="share-options">
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://gauthamzz.github.io/2017/10/26/Pytorch-101/">
+                <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://gauthamzz.github.io/2017/10/26/Pytorch-101/">
+                <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://gauthamzz.github.io/2017/10/26/Pytorch-101/">
+                <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+            
+        </div>
+        
+
+
+    
+        
+    
+
+<div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="https://avatars3.githubusercontent.com/u/12110844?v=4&amp;s=460"/>
+        
+            <h4 id="about-card-name">Gautham Santhosh</h4>
+        
+            <h5 id="about-card-bio"><p>Presently student at Indian Institute of Information Technology Allahabad for integrated M-Tech in Intelligent Systems. Originally from Mannanam,Kottayam,Kerala.</p>
+</h5>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>Student</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                India
+            </h5>
+        
+    </div>
+</div>
+
+        
+<div id="cover" style="background-image:url('/assets/images/cover.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/assets/js/script-i4qo6jx6jji9fg0dftpya6ivemizsbow4fhow76d8dwpm7m1wbvi378ssumx.min.js"></script>
+<!--SCRIPTS END-->
+
+    
+        <script>
+             var disqus_config = function () {
+                 this.page.url = 'http://gauthamzz.github.io/2017/10/26/Pytorch-101/';
+                 
+                    this.page.identifier = '2017/10/26/Pytorch-101/';
+                                  
+             };
+            (function() {
+                var d = document, s = d.createElement('script');
+                var disqus_shortname = 'gauthamsanthosh';
+                s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+    
+
+
+
+</html>

@@ -7,8 +7,8 @@
     </url>
 
     <url>
-        <loc>http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/</loc>
-        <lastmod>2017-09-23T14:41:55.551Z</lastmod>
+        <loc>http://gauthamzz.github.io/2017/10/26/Pytorch-101/</loc>
+        <lastmod>2018-03-01T01:15:38.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -16,47 +16,7 @@
 
     <url>
         <loc>http://gauthamzz.github.io/2017/08/15/nybles/</loc>
-        <lastmod>2017-09-22T05:07:30.223Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/2017/02/23/opencode/</loc>
-        <lastmod>2017-09-21T23:47:42.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/2016/10/18/stegolica/</loc>
-        <lastmod>2017-09-21T23:38:51.559Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/</loc>
-        <lastmod>2017-09-21T23:33:56.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/2016/09/12/IIITAHacks/</loc>
-        <lastmod>2017-09-21T23:14:30.259Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/2016/04/08/HackInTheNorth/</loc>
-        <lastmod>2017-09-21T23:05:34.875Z</lastmod>
+        <lastmod>2018-01-24T22:03:55.639Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -64,7 +24,39 @@
 
     <url>
         <loc>http://gauthamzz.github.io/2017/03/28/HackInTheNorth2-0/</loc>
-        <lastmod>2017-09-04T08:52:48.524Z</lastmod>
+        <lastmod>2018-01-24T22:03:55.369Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/</loc>
+        <lastmod>2018-01-24T22:03:55.356Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/2016/04/08/HackInTheNorth/</loc>
+        <lastmod>2018-01-24T22:03:55.336Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/2017/02/23/opencode/</loc>
+        <lastmod>2018-01-24T22:03:55.319Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/</loc>
+        <lastmod>2018-01-24T22:03:55.266Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -72,7 +64,31 @@
 
     <url>
         <loc>http://gauthamzz.github.io/2016/09/06/GeekhavenMentorship/</loc>
-        <lastmod>2017-09-04T08:52:48.512Z</lastmod>
+        <lastmod>2018-01-24T22:03:55.253Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/2016/09/12/IIITAHacks/</loc>
+        <lastmod>2018-01-24T22:03:55.156Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/2017/01/12/ImageCaptioning/</loc>
+        <lastmod>2018-01-24T22:03:55.099Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/2016/10/18/stegolica/</loc>
+        <lastmod>2018-01-24T22:03:52.249Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

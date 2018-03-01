@@ -8,21 +8,21 @@
 
     <url>
         <loc>http://gauthamzz.github.io/categories/Travel/</loc>
-        <lastmod>2017-09-21T23:33:56.235Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://gauthamzz.github.io/categories/Events-and-activities/</loc>
-        <lastmod>2017-09-22T05:07:30.223Z</lastmod>
+        <lastmod>2018-01-24T22:03:55.266Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://gauthamzz.github.io/categories/Experiments/</loc>
-        <lastmod>2017-09-23T14:41:55.551Z</lastmod>
+        <lastmod>2018-01-24T22:03:55.356Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://gauthamzz.github.io/categories/Events-and-activities/</loc>
+        <lastmod>2018-01-24T22:03:55.639Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

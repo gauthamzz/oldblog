@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gauthamzz.github.io/"/>
-  <updated>2017-09-23T14:41:55.551Z</updated>
+  <updated>2018-03-01T01:15:38.448Z</updated>
   <id>http://gauthamzz.github.io/</id>
   
   <author>
@@ -16,11 +16,68 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Pytorch 101</title>
+    <link href="http://gauthamzz.github.io/2017/10/26/Pytorch-101/"/>
+    <id>http://gauthamzz.github.io/2017/10/26/Pytorch-101/</id>
+    <published>2017-10-26T04:50:14.000Z</published>
+    <updated>2018-03-01T01:15:38.448Z</updated>
+    
+    <content type="html"><![CDATA[<!--excerpt -->
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/63xcx89n4guTm/giphy.gif" alt=""></div>
+<p>PyTorch was rewritten and tailored to be fast and feel native in Python. PyTorch is not a Python binding into a monolothic C++ framework. </p>
+<h1 id="Benefits"><a href="#Benefits" class="headerlink" title="Benefits"></a>Benefits</h1><h2 id="Impertive-Programming"><a href="#Impertive-Programming" class="headerlink" title="Impertive Programming"></a>Impertive Programming</h2><p>This key feature allows you to change computation as you type it. </p>
+<blockquote>
+<p>Computation is defined runtime</p>
+</blockquote>
+<p>Like most python code,while TensorFlow other framework requires the user to define the model first and then compute it. TensorFlow was made for Engineers while PyTorch was for researchrs.</p>
+<p>Meaning PyTorch is more flexible with the prize of a little drop in efficency.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/fQZX2aoRC1Tqw/giphy.gif" alt=""></div>
+<h2 id="Graphs-are-created-on-the-fly"><a href="#Graphs-are-created-on-the-fly" class="headerlink" title="Graphs are created on the fly"></a>Graphs are created on the fly</h2><p><img src="http://pytorch.org/static/img/dynamic_graph.gif" alt="alt text"></p>
+<p>Since computaion graphs are built at run time they are more efficent for using RNN’s. Which hence makes debugging very easy.</p>
+<h2 id="Basic-example"><a href="#Basic-example" class="headerlink" title="Basic example"></a>Basic example</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">#  1. Basic autograd example 1</div><div class="line"></div><div class="line"># Create tensors.</div><div class="line">a = Variable(torch.Tensor([1,2]), requires_grad=True)</div><div class="line">b = Variable(torch.Tensor([0,2]), requires_grad=True)</div><div class="line"></div><div class="line"># Build a computational graph.</div><div class="line">x = a @ b </div><div class="line"></div><div class="line">print(x)</div></pre></td></tr></table></figure>
+<p>Prints 4 : Taking a dot product of x with w using the new Python 3.5 syntax</p>
+<p>Once you are done, all you need to do is call #backward() on the result. This will calculate the gradients and you will be able to access them for Variables that were created with requires_grad = True.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"># Compute gradients.</div><div class="line">x.backward()</div><div class="line"></div><div class="line"># Print out the gradients.</div><div class="line">print(a.grad)</div></pre></td></tr></table></figure>
+<p>Prints 0 2</p>
+<h2 id="Single-Layer-Neural-Network"><a href="#Single-Layer-Neural-Network" class="headerlink" title="Single Layer Neural Network"></a>Single Layer Neural Network</h2><div class="figure " style="width:;"><img class="fig-img" src="single_layer.jpg" alt=""></div>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"># Neural Network Model (1 hidden layer)</div><div class="line">class Net(nn.Module):</div><div class="line">    def __init__(self, input_size, hidden_size, num_classes):</div><div class="line">        super(Net, self).__init__()</div><div class="line">        self.fc1 = nn.Linear(input_size, hidden_size) </div><div class="line">        self.relu = nn.ReLU()</div><div class="line">        self.fc2 = nn.Linear(hidden_size, num_classes)  </div><div class="line">    </div><div class="line">    def forward(self, x):</div><div class="line">        out = self.fc1(x)</div><div class="line">        out = self.relu(out)</div><div class="line">        out = self.fc2(out)</div><div class="line">        return out</div><div class="line">    </div><div class="line">net = Net(input_size, hidden_size, num_classes)</div><div class="line"></div><div class="line">    </div><div class="line"># Loss and Optimizer</div><div class="line">criterion = nn.CrossEntropyLoss()  </div><div class="line">optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)</div></pre></td></tr></table></figure>
+<p>Looks pretty simple right.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/h2MLtoOjxtkGY/giphy.gif" alt=""></div>
+<h1 id="Tensor-Flow-vs-Pytorch"><a href="#Tensor-Flow-vs-Pytorch" class="headerlink" title="Tensor Flow vs Pytorch"></a>Tensor Flow vs Pytorch</h1><div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/EZdjrzyK1Kw2A/giphy.gif" alt=""></div>
+<p>PyTorch is still a young framework which is getting momentum fast. You may find it a good fit if you:</p>
+<ul>
+<li>Do research or your production non-functional requirements are not very demanding</li>
+<li>Want better development and debugging experience</li>
+<li>Love all things Pythonic</li>
+</ul>
+<p>TensorFlow is a good option if you:</p>
+<ul>
+<li>Develop models for production</li>
+<li>Develop models which need to be deployed on mobile platforms</li>
+<li>Want good community support and comprehensive documentation</li>
+<li>Want rich learning resources in various forms (TensorFlow has an an entire MOOC)</li>
+<li>Want or need to use Tensorboard</li>
+<li>Need to use large-scale distributed model training</li>
+</ul>
+<p>But if you are still very new to Deeplearning and would just like to know what it means, keras is the way to go. </p>
+<h1 id="Learn-More"><a href="#Learn-More" class="headerlink" title="Learn More"></a>Learn More</h1><p>If you are a developer and wants to learn pytorch and deeplearning, i suggest this course <a href="http://www.fast.ai/" target="_blank" rel="external">Fast.ai</a></p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/26gsjCZpPolPr3sBy/giphy.gif" alt=""></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Torch is a Deep Learning framework which was written in Lua Programming Language. Inspired by this amazing library a couple of python ethusisats wrote PyTorch based on its principles. It’s supported by Facebook while TensorFlow is by Google.&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>AudioStyleTransfer</title>
     <link href="http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/"/>
     <id>http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/</id>
     <published>2017-09-22T21:59:38.000Z</published>
-    <updated>2017-09-23T14:41:55.551Z</updated>
+    <updated>2018-01-24T22:03:55.356Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
 <p>Applying <a href="https://github.com/junyanz/CycleGAN" target="_blank" rel="external">CycleGan</a>for Audio texture synthesis and Style Transfer. </p>
@@ -103,7 +160,7 @@
     <link href="http://gauthamzz.github.io/2017/08/15/nybles/"/>
     <id>http://gauthamzz.github.io/2017/08/15/nybles/</id>
     <published>2017-08-14T23:48:54.000Z</published>
-    <updated>2017-09-22T05:07:30.223Z</updated>
+    <updated>2018-01-24T22:03:55.639Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
 <p>I started a Tech newsletter</p>
@@ -167,7 +224,7 @@
     <link href="http://gauthamzz.github.io/2017/03/28/HackInTheNorth2-0/"/>
     <id>http://gauthamzz.github.io/2017/03/28/HackInTheNorth2-0/</id>
     <published>2017-03-28T08:11:10.000Z</published>
-    <updated>2017-09-04T08:52:48.524Z</updated>
+    <updated>2018-01-24T22:03:55.369Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
 <p>This years Hack In the North had around 300 participants to become india’s biggest student held Hackathon, With participants coming from all over india to make the event a grand sucess.</p>
@@ -219,7 +276,7 @@
     <link href="http://gauthamzz.github.io/2017/02/23/opencode/"/>
     <id>http://gauthamzz.github.io/2017/02/23/opencode/</id>
     <published>2017-02-23T16:42:15.000Z</published>
-    <updated>2017-09-21T23:47:42.000Z</updated>
+    <updated>2018-01-24T22:03:55.319Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt--></p>
 <div class="figure " style="width:;"><img class="fig-img" src="https://raw.githubusercontent.com/fossiiita/opencode/master/Logo.png" alt=""></div>
@@ -288,11 +345,25 @@
   </entry>
   
   <entry>
+    <title>ImageCaptioning</title>
+    <link href="http://gauthamzz.github.io/2017/01/12/ImageCaptioning/"/>
+    <id>http://gauthamzz.github.io/2017/01/12/ImageCaptioning/</id>
+    <published>2017-01-12T13:03:51.000Z</published>
+    <updated>2018-01-24T22:03:55.099Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Trip2Rishikesh</title>
     <link href="http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/"/>
     <id>http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/</id>
     <published>2016-11-03T21:11:48.000Z</published>
-    <updated>2017-09-21T23:33:56.235Z</updated>
+    <updated>2018-01-24T22:03:55.266Z</updated>
     
     <content type="html"><![CDATA[<p>I went to Rishikesh from October 30 to November 3, 2016.</p>
 <p>Rishikesh known as “the valley of saints” is an amazing place for both adventurers as well as people in search of Spiritual calling.This Blog post is about the former.</p>
@@ -347,7 +418,7 @@
     <link href="http://gauthamzz.github.io/2016/10/18/stegolica/"/>
     <id>http://gauthamzz.github.io/2016/10/18/stegolica/</id>
     <published>2016-10-18T08:27:54.000Z</published>
-    <updated>2017-09-21T23:38:51.559Z</updated>
+    <updated>2018-01-24T22:03:52.249Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://stegolica/effe.org.in/website/" target="_blank" rel="external">Stegolica</a> was held as part of <a href="http://effe.org.in" target="_blank" rel="external">Effervesence</a> 2016 of IIIT Allahabad.</p>
 <p>Steganography is the practice of concealing messages or information within other non-secret text or data.</p>
@@ -476,7 +547,7 @@
     <link href="http://gauthamzz.github.io/2016/09/12/IIITAHacks/"/>
     <id>http://gauthamzz.github.io/2016/09/12/IIITAHacks/</id>
     <published>2016-09-11T19:41:46.000Z</published>
-    <updated>2017-09-21T23:14:30.259Z</updated>
+    <updated>2018-01-24T22:03:55.156Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt --></p>
 <p><a href="https://iiitahacks.github.io/" target="_blank" rel="external">IIITA Hacks</a> was organized as part of Technical Society from 10th to 11th September 2016. It was a 17 hour hackathon with a participation of 150 students from the Institute.</p>
@@ -522,7 +593,7 @@
     <link href="http://gauthamzz.github.io/2016/09/06/GeekhavenMentorship/"/>
     <id>http://gauthamzz.github.io/2016/09/06/GeekhavenMentorship/</id>
     <published>2016-09-05T20:19:18.000Z</published>
-    <updated>2017-09-04T08:52:48.512Z</updated>
+    <updated>2018-01-24T22:03:55.253Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt -->
 <h2 id="Task-3-0"><a href="#Task-3-0" class="headerlink" title="Task 3.0"></a>Task 3.0</h2><ol>
@@ -586,7 +657,7 @@
     <link href="http://gauthamzz.github.io/2016/04/08/HackInTheNorth/"/>
     <id>http://gauthamzz.github.io/2016/04/08/HackInTheNorth/</id>
     <published>2016-04-08T04:40:12.000Z</published>
-    <updated>2017-09-21T23:05:34.875Z</updated>
+    <updated>2018-01-24T22:03:55.336Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
 <p>Even the term Hackathon was a new one for a lot of people in Allahabad. If i had a penny for every time i herd what is a Hackathon i would be a very rich guy. But even in this situation we made it happen. And i am proud of being part of this wonderful team.<br>It was held as part of our tech fest Aparoksha and beginning itself it was decided it would be our flagship event.Due to the support from our sponsors Hackerearth , Mozilla and our faculty we raised enough funds to make it happen.</p>
