@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gauthamzz.github.io/"/>
-  <updated>2018-03-01T01:15:38.448Z</updated>
+  <updated>2018-03-24T16:58:12.801Z</updated>
   <id>http://gauthamzz.github.io/</id>
   
   <author>
@@ -16,10 +16,168 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Pelican</title>
+    <link href="http://gauthamzz.github.io/2018/03/24/pelican/"/>
+    <id>http://gauthamzz.github.io/2018/03/24/pelican/</id>
+    <published>2018-03-24T16:42:50.000Z</published>
+    <updated>2018-03-24T16:58:12.801Z</updated>
+    
+    <content type="html"><![CDATA[<!--excerpt -->
+<p><a href="https://chrome.google.com/webstore/detail/pelican-facebook/kpnklhhobpobgfklmnilcijcejpddhjc" target="_blank" rel="external">Download</a> at <a href="https://chrome.google.com/webstore/detail/pelican-facebook/kpnklhhobpobgfklmnilcijcejpddhjc" target="_blank" rel="external">Chrome Webstore</a></p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*gD3x5mjMh43ufS0Vd2xy7A.png" alt=""><br><span class="figcaption_hack">Pelican Facebook logo</span></p>
+<h3 id="The-Problem"><a href="#The-Problem" class="headerlink" title="The Problem"></a>The <strong>Problem</strong></h3><p>Being a college student I always faced the issue that while doing something like<br>assignment when I used to start chatting with somebody regarding it I always<br>ended up spending hours scrolling timeline which always resulted in making me<br>lag behind in time and thus creating last minute fuss.</p>
+<p>So to solve this problem I decided why not to make the timeline and<br>notifications itself get disabled. Another problem everybody could relate to was<br>the incredibly complicated unused daily things that appear on facebook.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/PsGZEKpj1pSNy/giphy.gif" alt=""></div>
+<h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>So to solve these issues I ended up making Pelican with two modes namely focus<br>and minimal mode.</p>
+<h4 id="Minimal-Mode"><a href="#Minimal-Mode" class="headerlink" title="Minimal Mode"></a>Minimal Mode</h4><blockquote>
+<p>“I’ve found that the less stuff I own, the less my stuff owns me.”<br><a href="https://www.goodreads.com/author/show/6551112.Nathan_W_Morris" target="_blank" rel="external">Nathan W. Morris</a></p>
+</blockquote>
+<p>Minimal mode is designed to solve the other issue of getting rid from the not so<br>useful things on Facebook. Moreover, being a big fan of minimalism my main goal<br>of this was to make the Facebook minimal. Thus, I ended up deleting everything<br>except the news feed and chat, as they were the reason because of which I use to<br>open Facebook 90% of the time.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*iLLOqgB6pl_C0x95L__xkQ.png" alt=""><br><span class="figcaption_hack">Minimal Mode</span></p>
+<h4 id="Focus-Mode"><a href="#Focus-Mode" class="headerlink" title="Focus Mode"></a>Focus Mode</h4><blockquote>
+<p>“Lack of direction, not lack of time, is the problem. We all have twenty-four<br>hour days.” ― <a href="https://www.goodreads.com/author/show/50316.Zig_Ziglar" target="_blank" rel="external">Zig Ziglar</a></p>
+</blockquote>
+<p>Focus mode is designed in a way that you don’t get notifications for messages<br>and other things and furthermore timeline is also disabled thus letting the<br>person stay focused on the task in hand. To further give motivation to work I<br>Quotes and unsplash image are added in focus mode.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*yUK2MhBXSPCV7JZ6lmKT9A.png" alt=""><br><span class="figcaption_hack">Focused Mode</span></p>
+<h4 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h4><p><img src="https://cdn-images-1.medium.com/max/800/1*_agG21Hj6-bcEIuOnW6IuQ.png" alt=""><br><span class="figcaption_hack">Download from Chrome Store</span></p>
+<p>You can Download Pelican from chrome web store at this<br><a href="https://chrome.google.com/webstore/detail/pelican-facebook/kpnklhhobpobgfklmnilcijcejpddhjc" target="_blank" rel="external">link</a>.</p>
+<p>I hope that you will also find it useful. Looking forward for my suggestions and<br>reviews :)</p>
+<ul>
+<li><a href="https://medium.com/tag/chrome-extension?source=post" target="_blank" rel="external">Chrome Extension</a></li>
+<li><a href="https://medium.com/tag/productivity?source=post" target="_blank" rel="external">Productivity</a></li>
+<li><a href="https://medium.com/tag/facebook?source=post" target="_blank" rel="external">Facebook</a></li>
+</ul>
+<p>By clapping more or less, you can signal to us which stories really stand out.</p>
+<h3 id="Gautham-Santhosh"><a href="#Gautham-Santhosh" class="headerlink" title="Gautham Santhosh"></a><a href="https://medium.com/@gauthamsanthosh" target="_blank" rel="external">Gautham Santhosh</a></h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Pelican Facebook : Chrome extension to Optimise your Facebook.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Projects" scheme="http://gauthamzz.github.io/categories/Projects/"/>
+    
+    
+      <category term="Pelican" scheme="http://gauthamzz.github.io/tags/Pelican/"/>
+    
+      <category term="Facebook" scheme="http://gauthamzz.github.io/tags/Facebook/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>From Hackathon to Product Hunt</title>
+    <link href="http://gauthamzz.github.io/2018/03/12/Anna-HackthonToProductHunt/"/>
+    <id>http://gauthamzz.github.io/2018/03/12/Anna-HackthonToProductHunt/</id>
+    <published>2018-03-12T06:59:04.000Z</published>
+    <updated>2018-03-24T16:56:45.206Z</updated>
+    
+    <content type="html"><![CDATA[<!--excerpt --></p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/o3xmL-TqK5o" frameborder="0" allowfullscreen></iframe></div>
+<p><span class="figcaption_hack">Video on Anna</span></p>
+<p>The video you see above is of Anna Assistant a virtual assistant for google<br>chrome which i had been working on with a couple of people for the past few<br>months.</p>
+<h3 id="How-it-all-started"><a href="#How-it-all-started" class="headerlink" title="How it all started ?"></a>How it all started ?</h3><p>Anna was nothing more than a hack made in 17 hours for a hackathon in college<br>organised at the end of October 2017.</p>
+<h3 id="Idea"><a href="#Idea" class="headerlink" title="Idea"></a>Idea</h3><p>Being a Linux user, I was always in a search of good virtual assistant which I<br>could actually play with every time. The once I found were giving me a hard time<br>to install and always ended up making my life miserable for a couple of days.</p>
+<blockquote>
+<p>Thus my search for a good virtual assistant was even more than my search for a<br>girlfriend.</p>
+</blockquote>
+<p>So because of this only, when the time to decide what to make for hackathon we<br>decided to make an assistant ourselves which could fulfill. Thus I and my team<br>ended up deciding to make a virtual assistant for Linux. But the sad truth we<br>soon realised was that we won’t be able to show our assistant to family and<br>normal friends (yaa, because 4 years of engineering makes you insane) as they<br>are not familiar with the Linux world.</p>
+<p>So the very next thought was why not to make a chrome extension. This idea was<br>sounding good as by doing this we could end up covering all platforms and could<br>fulfill most of the needs of a user by just using chrome browser. Further<br>considering the fact that chrome is one of the most widely and easy to use<br>browser we decided to start hacking it.</p>
+<h3 id="The-Hack"><a href="#The-Hack" class="headerlink" title="The Hack"></a>The Hack</h3><p>So now we were having an awesome idea, a motivation to make but the question was<br>how to make?</p>
+<p>This is and will always stay the hardest part of any hack, to decide what to<br>use.</p>
+<p>After considering a lot of options and finding their shortcomings we decided<br>that we will do something like taking the voice from the user, convert it to<br>text and then write If conditions.</p>
+<p>But it was a very bad idea. 😃 😺</p>
+<p>So after further thinking, we decided that we will put AI/NLP in the part where<br>it gets to decide if conditions. As of how can you even think to win a hackathon<br>by just writing if conditions for 17 hours.</p>
+<p>Then came the dialogflow/api.ai into play. So now we had a plan something like<br>this:</p>
+<p>Speech -&gt; Text -&gt; dialogflow -&gt; actions triggered by API’s</p>
+<p>Then hacking began</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt=""></div>
+<p>In the end, we were able to implement a decent hack, though having very minimal<br>features such as opening websites, playing songs from YouTube, writing an email,<br>tweeting etc. <a href="https://www.youtube.com/watch?v=17bVrAZMgEY" target="_blank" rel="external">Demo video of the Hack on<br>Youtube</a></p>
+<div class="video-container"><iframe src="//www.youtube.com/embed/17bVrAZMgEY" frameborder="0" allowfullscreen></iframe></div>
+<p><span class="figcaption_hack">Demo video of hack.</span></p>
+<blockquote>
+<p>It was a decent hack. Not the best and we got third. I was like okay 😿</p>
+</blockquote>
+<h3 id="The-decision"><a href="#The-decision" class="headerlink" title="The decision"></a>The decision</h3><p>Till this time everything I made in my life, just went on GitHub and stayed on<br>my not at all visited by anyone GitHub account.</p>
+<p>But this time, I wanted to make something which I can ship. So I decided to<br>feature it on chrome web store and show it to the world.</p>
+<p>If you are an Indian you could easily relate to the pain of putting something on<br>Chrome web store. Not due to the cash, but because you need a credit card. Yes,<br>they don’t accept Indian Debit cards. This made me roam around and go to all my<br>friends to get one.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/CNjCfUhoCg5IA/giphy.gif" alt=""></div>
+<p><span class="figcaption_hack">Me and Chrome web store paying</span></p>
+<p>So finally i put it on <a href="https://chrome.google.com/webstore/detail/anna-assistant/kmkkgdkinnjokklbfloikdbdohbiklog" target="_blank" rel="external">Chrome web<br>store</a>.</p>
+<h3 id="Accidental-Fame"><a href="#Accidental-Fame" class="headerlink" title="Accidental Fame"></a>Accidental Fame</h3><p>Being a bit excited about it I showed it to a couple of my friends and also made<br>a lame Facebook post which few people liked. But yes it was just a one day show<br>and soon ended.</p>
+<p>I thought it was over, but after a couple of weeks when one day I was looking at<br>the number of downloads I realised that they went suddenly high. Being curious<br>about it, after checking Google analytics I discovered that traffic was coming<br>from this blog.</p>
+<p><a href="http://techpp.com/2017/11/10/anna-assistant-voice-assistant-chrome/?ref=producthunt" target="_blank" rel="external">http://techpp.com/2017/11/10/anna-assistant-voice-assistant-chrome/</a></p>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*ZDAarVyDvvB--IPl." alt=""><br><span class="figcaption_hack">One of the first articles about anna</span></p>
+<p>Soon I realized that a lot of blogs are written about Anna and even Anna is<br>being said to be Siri or Cortana of Chrome. For a college kid having nothing<br>being featured anywhere, it was a big thing.</p>
+<p>But now I started feeling bad about our logo. It was crap. It was something I<br>just ended up making in two minutes. And I was not even having proper posters to<br>put on Chrome web store. Only thing I had was a video explaining its features<br>that was made for demo purpose during the hackathon.</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/LqafmeaBVxCRG/giphy.gif" alt=""></div>
+<p>So i decided to work on it for a couple more weeks.</p>
+<h3 id="Open-Source-Development"><a href="#Open-Source-Development" class="headerlink" title="Open Source Development"></a>Open Source Development</h3><p>The code was open sourced from the very beginning. I decided to enter into a<br>month of coding Open Source event with Anna which was known as KWOC. With the<br>help of 2–3 contributors who started showing interest in Anna we improved its<br>functionalities and made Anna a more handy extension.</p>
+<p>Presently it is having more than 20 different functionalities, reverse search<br>being my personal favorite. Could also be seen in the promotional video<br>attached(The First video).</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*UDV_WX6ZE-_V5uNx." alt=""><br><span class="figcaption_hack">Actions that Anna can do now</span></p>
+<p>The best part about Anna is that it works in the background thus giving no<br>random animations or pop-ups. But soon we realised that it should have a status<br>icon or something so that user can know if it is working or not. So we decided<br>to add a very minimal and small status icon which could be easily enabled or<br>disabled by the user.</p>
+<h3 id="Branding"><a href="#Branding" class="headerlink" title="Branding"></a>Branding</h3><p>So with Anna gaining popularity, one day when I was at my friend’s house we<br>decided to give our assistant a completely new look and started branding Anna<br>from head to toe. With this Anna got a new logo and became more like a real<br>voice assistant.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*HeyhPYJoGxTmGN0d." alt=""><br><span class="figcaption_hack">Anna’s new logo</span></p>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*XSskaJuEyMa9fO_P." alt=""></p>
+<p>We decided to go with elephant as Anna’s logo. Since Anna means Elephant in<br>Malayalam. And i wanted have the logo like an emoji. 🐘</p>
+<div class="figure " style="width:;"><img class="fig-img" src="https://media.giphy.com/media/xULW8pWyXEwmkHPPJS/giphy.gif" alt=""></div>
+<h3 id="Product-hunt-release-of-Anna"><a href="#Product-hunt-release-of-Anna" class="headerlink" title="Product hunt release of Anna"></a>Product hunt release of Anna</h3><p>One of the milestones in Anna’s achievements was its release on Product Hunt.<br>Soon it became the third product of the day with 327 upvotes.</p>
+<p>It went from a project that could be made by anybody in a couple of hours to a<br>project that is actually a Product.</p>
+<p>I wasn’t even having a proper product hunt account at the time I released it<br>there. You need to do some tasks to be able to ship products on product hunt.<br>The only time I visited product hunt before this was when one of my friends<br>asked me to upvote his product on product hunt.</p>
+<p>Now I realize how amazing it was to put Anna on product hunt. After this, more<br>and more blogs and articles were written on Anna and Anna got new users. My<br>inbox was now filled with mails about Anna and it was really so satisfying to<br>see that people were showing interest in it.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*-ePPT0_RB-gfr7EH." alt=""></p>
+<p>Finally, after being the 3rd product of the day on product hunt I saw this tweet<br>by the product hunt itself.😃 Though Anna has a lot of tweets, still this is my<br>favourite.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*WYLcKi8JLhXueWlQkhbShQ.png" alt=""><br><span class="figcaption_hack">The Best tweet i ever had</span></p>
+<h4 id="Some-blog-posts-about-Anna"><a href="#Some-blog-posts-about-Anna" class="headerlink" title="Some blog posts about Anna"></a>Some blog posts about Anna</h4><p><img src="https://cdn-images-1.medium.com/max/600/0*cFo2wKCKizT_2MAg." alt=""></p>
+<p><img src="https://cdn-images-1.medium.com/max/600/0*DF5BkE6OfLCDtC1c." alt=""></p>
+<p><img src="https://cdn-images-1.medium.com/max/600/0*sf-XnQjC8_IsmdW6." alt=""></p>
+<p>Even without much marketing, Anna is able to secure a place in 10 + blogs all<br>being organic.Some of the articles about Anna are:</p>
+<p><a href="https://www.maketecheasier.com/software/anna-assistant/" target="_blank" rel="external">https://www.maketecheasier.com/software/anna-assistant/</a></p>
+<p><a href="http://newsdog.today/a/article/5a0ea04a12313a00a340966a/?d=false" target="_blank" rel="external">http://newsdog.today/a/article/5a0ea04a12313a00a340966a/?d=false</a></p>
+<p><a href="http://techpp.com/2017/11/10/anna-assistant-voice-assistant-chrome/?ref=producthunt" target="_blank" rel="external">http://techpp.com/2017/11/10/anna-assistant-voice-assistant-chrome/?ref=producthunt</a></p>
+<p><a href="http://latestversionplugin.com/anna-assistant-google-chrome/" target="_blank" rel="external">http://latestversionplugin.com/anna-assistant-google-chrome/</a></p>
+<p>Even featured in other languages such as urdu</p>
+<p><a href="https://www.urdupoint.com/technology/detail/applications-and-extensions/anna-assistant-â-your-personal-assistant-on-google-chrome-5235.html" target="_blank" rel="external">https://www.urdupoint.com/technology/detail/applications-and-extensions/anna-assistant-%E2%80%93-your-personal-assistant-on-google-chrome-5235.html</a></p>
+<p><img src="https://cdn-images-1.medium.com/max/600/0*ifj6w3Vu0pSTWoNm." alt=""></p>
+<p><a href="https://www.youtube.com/watch?v=tGwDLcLavK0" target="_blank" rel="external">https://www.youtube.com/watch?v=tGwDLcLavK0</a></p>
+<p>As what else could be better for promoting Anna than the online platform twitter<br>itself. Thus Anna has an active twitter handle to tell the world about what it<br>can do and what people are saying about it.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*lcIR-LeU32Zl_MGK." alt=""><br><span class="figcaption_hack">Twitter account</span></p>
+<h3 id="Future"><a href="#Future" class="headerlink" title="Future"></a>Future</h3><p>We are planning to make Anna for Firefox also. Work in this direction has<br>already been started it is just we cannot realise it completely due to lack of<br>support by Mozilla in voice recognition. I guess, it will hardly take one or two<br>more months to get resolved.</p>
+<h3 id="Thank-you"><a href="#Thank-you" class="headerlink" title="Thank you"></a>Thank you</h3><p>Thank you for reading this. After doing this i learned two things:</p>
+<ol>
+<li>Always ship; don’t think too much.</li>
+<li>Make a product; hacks are just for fun.</li>
+</ol>
+<p>With this, I decided to make more and more products so that I could look at them<br>and proudly say that this is made by me and also get a new topic to write a blog<br>on.😃 ⛅️</p>
+<ul>
+<li><a href="https://medium.com/tag/chrome?source=post" target="_blank" rel="external">Chrome</a></li>
+<li><a href="https://medium.com/tag/virtual-assistant?source=post" target="_blank" rel="external">Virtual Assistant</a></li>
+<li><a href="https://medium.com/tag/anna-assistant?source=post" target="_blank" rel="external">Anna Assistant</a></li>
+<li><a href="https://medium.com/tag/chrome-extension?source=post" target="_blank" rel="external">Chrome Extension</a></li>
+</ul>
+<p>By clapping more or less, you can signal to us which stories really stand out.</p>
+<h3 id="Gautham-Santhosh"><a href="#Gautham-Santhosh" class="headerlink" title="Gautham Santhosh"></a><a href="https://medium.com/@gauthamsanthosh" target="_blank" rel="external">Gautham Santhosh</a></h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Anna Assistant - Virtual Assistant for Browsers&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Projects" scheme="http://gauthamzz.github.io/categories/Projects/"/>
+    
+    
+      <category term="Anna Assistant" scheme="http://gauthamzz.github.io/tags/Anna-Assistant/"/>
+    
+      <category term="Virtual Assistant" scheme="http://gauthamzz.github.io/tags/Virtual-Assistant/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Pytorch 101</title>
     <link href="http://gauthamzz.github.io/2017/10/26/Pytorch-101/"/>
     <id>http://gauthamzz.github.io/2017/10/26/Pytorch-101/</id>
-    <published>2017-10-26T04:50:14.000Z</published>
+    <published>2017-10-26T09:20:14.000Z</published>
     <updated>2018-03-01T01:15:38.448Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
@@ -76,7 +234,7 @@
     <title>AudioStyleTransfer</title>
     <link href="http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/"/>
     <id>http://gauthamzz.github.io/2017/09/23/AudioStyleTransfer/</id>
-    <published>2017-09-22T21:59:38.000Z</published>
+    <published>2017-09-23T02:29:38.000Z</published>
     <updated>2018-01-24T22:03:55.356Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
@@ -159,7 +317,7 @@
     <title>Nybles</title>
     <link href="http://gauthamzz.github.io/2017/08/15/nybles/"/>
     <id>http://gauthamzz.github.io/2017/08/15/nybles/</id>
-    <published>2017-08-14T23:48:54.000Z</published>
+    <published>2017-08-15T04:18:54.000Z</published>
     <updated>2018-01-24T22:03:55.639Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
@@ -223,7 +381,7 @@
     <title>HackInTheNorth2.0</title>
     <link href="http://gauthamzz.github.io/2017/03/28/HackInTheNorth2-0/"/>
     <id>http://gauthamzz.github.io/2017/03/28/HackInTheNorth2-0/</id>
-    <published>2017-03-28T08:11:10.000Z</published>
+    <published>2017-03-28T12:41:10.000Z</published>
     <updated>2018-01-24T22:03:55.369Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
@@ -275,7 +433,7 @@
     <title>Opencode</title>
     <link href="http://gauthamzz.github.io/2017/02/23/opencode/"/>
     <id>http://gauthamzz.github.io/2017/02/23/opencode/</id>
-    <published>2017-02-23T16:42:15.000Z</published>
+    <published>2017-02-23T22:12:15.000Z</published>
     <updated>2018-01-24T22:03:55.319Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt--></p>
@@ -348,7 +506,7 @@
     <title>ImageCaptioning</title>
     <link href="http://gauthamzz.github.io/2017/01/12/ImageCaptioning/"/>
     <id>http://gauthamzz.github.io/2017/01/12/ImageCaptioning/</id>
-    <published>2017-01-12T13:03:51.000Z</published>
+    <published>2017-01-12T18:33:51.000Z</published>
     <updated>2018-01-24T22:03:55.099Z</updated>
     
     <summary type="html">
@@ -362,7 +520,7 @@
     <title>Trip2Rishikesh</title>
     <link href="http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/"/>
     <id>http://gauthamzz.github.io/2016/11/04/Trip2Rishikesh/</id>
-    <published>2016-11-03T21:11:48.000Z</published>
+    <published>2016-11-04T02:41:48.000Z</published>
     <updated>2018-01-24T22:03:55.266Z</updated>
     
     <content type="html"><![CDATA[<p>I went to Rishikesh from October 30 to November 3, 2016.</p>
@@ -417,7 +575,7 @@
     <title>Stegolica</title>
     <link href="http://gauthamzz.github.io/2016/10/18/stegolica/"/>
     <id>http://gauthamzz.github.io/2016/10/18/stegolica/</id>
-    <published>2016-10-18T08:27:54.000Z</published>
+    <published>2016-10-18T12:57:54.000Z</published>
     <updated>2018-01-24T22:03:52.249Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://stegolica/effe.org.in/website/" target="_blank" rel="external">Stegolica</a> was held as part of <a href="http://effe.org.in" target="_blank" rel="external">Effervesence</a> 2016 of IIIT Allahabad.</p>
@@ -546,7 +704,7 @@
     <title>IIITAHacks</title>
     <link href="http://gauthamzz.github.io/2016/09/12/IIITAHacks/"/>
     <id>http://gauthamzz.github.io/2016/09/12/IIITAHacks/</id>
-    <published>2016-09-11T19:41:46.000Z</published>
+    <published>2016-09-12T00:11:46.000Z</published>
     <updated>2018-01-24T22:03:55.156Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt --></p>
@@ -592,7 +750,7 @@
     <title>GeekhavenMentorship</title>
     <link href="http://gauthamzz.github.io/2016/09/06/GeekhavenMentorship/"/>
     <id>http://gauthamzz.github.io/2016/09/06/GeekhavenMentorship/</id>
-    <published>2016-09-05T20:19:18.000Z</published>
+    <published>2016-09-06T00:49:18.000Z</published>
     <updated>2018-01-24T22:03:55.253Z</updated>
     
     <content type="html"><![CDATA[<!-- excerpt -->
@@ -656,7 +814,7 @@
     <title>HackInTheNorth</title>
     <link href="http://gauthamzz.github.io/2016/04/08/HackInTheNorth/"/>
     <id>http://gauthamzz.github.io/2016/04/08/HackInTheNorth/</id>
-    <published>2016-04-08T04:40:12.000Z</published>
+    <published>2016-04-08T09:10:12.000Z</published>
     <updated>2018-01-24T22:03:55.336Z</updated>
     
     <content type="html"><![CDATA[<!--excerpt -->
